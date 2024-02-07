@@ -1,0 +1,6 @@
+
+[misc]
+	soulbound_mending_compat = false
+	disable_anvil_enchanting = true
+	disable_anvil_cost = true
+
