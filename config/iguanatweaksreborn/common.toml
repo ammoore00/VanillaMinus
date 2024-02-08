@@ -142,7 +142,7 @@
 	#Prevents the player from sleeping if has not enough Hunger and gives him effects on wake up. Effects on wake up are controlled via json in this feature's folder
 	"Enable Sleeping Effects" = false
 	#Changes to sleeping and spawn points
-	"Enable Sleeping and Spawn Point" = false
+	"Enable Sleeping and Spawn Point" = true
 	#Changes to respawning
 	"Enable Respawn" = true
 	#Changes to death
@@ -186,7 +186,7 @@
 	#Changes to sleeping and spawn points
 	["Sleep & Respawn"."Sleeping and Spawn Point"]
 		#If set to true the player will not be able to sleep.
-		"Disable Sleeping" = true
+		"Disable Sleeping" = false
 		#If set to true the player spawn point cannot be changed with beds.
 		"Disable Spawn Point" = true
 		#If set to true the player will be able to sleep during day time. On wake up it will be night time. Note that with 'Tiredness' feature enabled you are still not able to sleep during day unless you're tired enough.
