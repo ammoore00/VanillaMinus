@@ -54,6 +54,12 @@
 				aurum = true
 				edelwood = true
 
+		[general.types.cake]
+
+			[general.types.cake.createaddition]
+				chocolate_cake = true
+				honey_cake = true
+
 	[general.entries]
 
 		[general.entries.leaves_type]

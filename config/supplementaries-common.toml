@@ -382,7 +382,7 @@
 		bound_distance = 64
 
 	[tools.bomb]
-		enabled = true
+		enabled = false
 		#Bomb explosion radius (damage depends on this)
 		#Range: 0.1 ~ 10.0
 		explosion_radius = 2.0
@@ -402,7 +402,7 @@
 			break_blocks = "WEAK"
 
 	[tools.slingshot]
-		enabled = true
+		enabled = false
 		#Slingshot range multiplier. Affect the initial projectile speed
 		#Range: 0.0 ~ 5.0
 		range_multiplier = 1.0
@@ -442,7 +442,7 @@
 	server_protection = false
 	#slightly increase this or decrease this number to tweak the red merchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
 	#Range: 0.0 ~ 10.0
-	red_merchant_spawn_multiplier = 1.0
+	red_merchant_spawn_multiplier = 0.0
 
 #Vanilla tweaks
 [tweaks]

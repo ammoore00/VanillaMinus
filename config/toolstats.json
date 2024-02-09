@@ -7,6 +7,6 @@
   "showEfficiency": true,
   "showSwordEfficiency": false,
   "showDurability": true,
-  "alwaysShowDurability": false,
+  "alwaysShowDurability": true,
   "showHorseArmorProtection": true
 }
