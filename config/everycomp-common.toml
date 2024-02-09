@@ -37,6 +37,25 @@
 				yellow_blossom = true
 				red_blossom = true
 
+			[general.types.leaves_type.biomesoplenty]
+				origin = true
+				flowering_oak = true
+				maple = true
+				orange_autumn = true
+				yellow_autumn = true
+				rainbow_birch = true
+				snowblossom = true
+				fir = true
+				redwood = true
+				mahogany = true
+				jacaranda = true
+				palm = true
+				willow = true
+				dead = true
+				magic = true
+				umbran = true
+				hellbark = true
+
 		[general.types.wood_type]
 
 			[general.types.wood_type.ecologics]
@@ -53,6 +72,18 @@
 			[general.types.wood_type.forbidden_arcanus]
 				aurum = true
 				edelwood = true
+
+			[general.types.wood_type.biomesoplenty]
+				fir = true
+				redwood = true
+				mahogany = true
+				jacaranda = true
+				palm = true
+				willow = true
+				dead = true
+				magic = true
+				umbran = true
+				hellbark = true
 
 		[general.types.cake]
 
