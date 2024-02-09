@@ -34,7 +34,7 @@
 		#Range: 0.0 ~ 100.0
 		"Fire spread speed multiplier" = 1.0
 		#If true, campfires must be lit
-		"Unlit campfire" = true
+		"Unlit campfire" = false
 
 	[World."Berry Bushes"]
 		#Berry bushes no longer deal damage when walking in them with leggings and boots
@@ -144,7 +144,7 @@
 	#Changes to sleeping and spawn points
 	"Enable Sleeping and Spawn Point" = true
 	#Changes to respawning
-	"Enable Respawn" = true
+	"Enable Respawn" = false
 	#Changes to death
 	"Enable Death" = false
 
@@ -152,7 +152,7 @@
 	["Sleep & Respawn".Tiredness]
 		#Multiply the tiredness gained by this value. Normally you gain tiredness equal to the exhaustion gained. 'Effective Hunger' doesn't affect the exhaustion gained.
 		#Range: 0.0 ~ 128.0
-		"Tiredness gained multiplier" = 1.0
+		"Tiredness gained multiplier" = 0.0
 		#If true the player will not set the spawn point if can't sleep.
 		"Prevent Spawn Point" = false
 		#Tiredness required to get the Tired effect and be able to sleep.
@@ -188,7 +188,7 @@
 		#If set to true the player will not be able to sleep.
 		"Disable Sleeping" = false
 		#If set to true the player spawn point cannot be changed with beds.
-		"Disable Spawn Point" = true
+		"Disable Spawn Point" = false
 		#If set to true the player will be able to sleep during day time. On wake up it will be night time. Note that with 'Tiredness' feature enabled you are still not able to sleep during day unless you're tired enough.
 		"Allow Sleeping During Day" = false
 
@@ -228,7 +228,7 @@
 	#Player's slowed down for a brief moment when hit.
 	"Enable Tagging" = false
 	#Prevents the player from placing blocks below him when in mid air.
-	"Enable No Pillaring" = true
+	"Enable No Pillaring" = false
 	#Slowdown based off the terrain you're walking on. Custom Terrain Slowdown are controlled via json in this feature's folder
 	"Enable Terrain Slowdown" = false
 	#Stamina to let the player run and do stuff.
@@ -403,7 +403,7 @@
 		#* Torches can be only made on Campfires early on in the game
 		#* With shears you can make 3 torches out of coal
 		#* With Fire Charges you can make them later in the game.
-		"Hardcore Torches" = true
+		"Hardcore Torches" = false
 		#Changes vanilla chains recipe. Makes chains easily craftable with nuggets only.
 		"Cheaper Chains" = true
 		#Minor changes:
@@ -556,7 +556,7 @@
 		"Exhaustion per tick when breaking a block" = 0.005
 		#Every second the player will get this exhaustion.
 		#Range: 0.0 ~ 128.0
-		"Passive Exhaustion" = 0.005
+		"Passive Exhaustion" = 0.01
 		#When affected by the hunger effect ANY action will give you 100% more exhaustion per level.
 		"Effective Hunger" = true
 

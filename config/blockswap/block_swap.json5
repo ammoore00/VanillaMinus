@@ -84,5 +84,8 @@ to make editing this file much easier.
 	   		"minecraft:diamond_block": "minecraft:emerald_block"
 	   	}
 	*/
-	"swapper": { }
+	"swapper": {
+		"ecologics:thin_ice": "minecraft:ice",
+		"forbidden_arcanus:nuggety_aurum_leaves":"forbidden_arcanus:aurum_leaves"
+	}
 }
