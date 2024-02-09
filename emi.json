@@ -1,6 +1,17 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:create:basin",
+    "item:createaddition:electrum_ingot",
+    "item:createaddition:electrum_sheet",
+    "item:createaddition:electrum_rod",
+    {
+      "type": "item",
+      "id": "createaddition:large_connector",
+      "amount": 2
+    },
+    "item:createaddition:gold_rod",
+    "item:supplementaries:globe",
     "item:supplementaries:antique_ink",
     {
       "type": "fluid",
@@ -32,7 +43,6 @@
     "item:create:spout",
     "item:create:copper_valve_handle",
     "item:create:metal_bracket",
-    "item:create:basin",
     "item:createaddition:straw",
     "item:create:empty_blaze_burner",
     "item:create:blaze_burner",
@@ -72,10 +82,7 @@
     "item:create:precision_mechanism",
     "item:minecraft:stick",
     "item:createaddition:brass_rod",
-    "item:createaddition:electrum_rod",
-    "item:createaddition:gold_rod",
     "item:createaddition:iron_rod",
-    "item:createaddition:electrum_sheet",
     "item:create:brass_sheet",
     "item:createaddition:zinc_sheet",
     "item:create:iron_sheet",
@@ -119,7 +126,6 @@
     "item:forbidden_arcanus:xpetrified_orb",
     "item:forbidden_arcanus:draco_arcanus_sword{Damage:0}",
     "item:create:zinc_ingot",
-    "item:createaddition:electrum_ingot",
     "item:createaddition:biomass_pellet_block",
     "item:createaddition:digital_adapter",
     "item:create_central_kitchen:chocolate_cake_slice",
@@ -162,7 +168,6 @@
     "item:minecraft:potion{Potion:\"somnia:insomnia\"}",
     "item:minecraft:potion{Potion:\"somnia:awakening\"}",
     "item:minecraft:potion{Potion:\"quark:resilience\"}",
-    "item:supplementaries:globe",
     "item:create:sturdy_sheet",
     {
       "type": "item",
