@@ -4,6 +4,16 @@
     "item.minecraft.netherite_scrap": "Ancient Scrap",
     "item.minecraft.netherite_ingot": "Soulforged Steel Ingot",
 
+    "item.minecraft.diamond_axe": "Adamantine Axe",
+    "item.minecraft.diamond_boots": "Adamantine Boots",
+    "item.minecraft.diamond_chestplate": "Adamantine Chestplate",
+    "item.minecraft.diamond_helmet": "Adamantine Helmet",
+    "item.minecraft.diamond_hoe": "Adamantine Hoe",
+    "item.minecraft.diamond_horse_armor": "Adamantine Horse Armor",
+    "item.minecraft.diamond_leggings": "Adamantine Leggings",
+    "item.minecraft.diamond_pickaxe": "Adamantine Pickaxe",
+    "item.minecraft.diamond_shovel": "Adamantine Shovel",
+    "item.minecraft.diamond_sword": "Adamantine Sword",
     "item.minecraft.netherite_helmet": "Plate Helmet",
     "item.minecraft.netherite_chestplate": "Breastplate",
     "item.minecraft.netherite_leggings": "Plate Leggings",
@@ -25,6 +35,8 @@
     "subtitles.item.armor.equip_netherite": "Soulforged steel armor clanks",
     "advancements.husbandry.netherite_hoe.description": "Use a Soulforged Steel ingot to upgrade a hoe, and then reevaluate your life choices",
 
+    "advancements.nether.netherite_armor.description": "Get a full suit of Soulforged Steel armor",
     "advancements.nether.netherite_armor.title": "Cover Me in Steel",
-    "advancements.nether.netherite_armor.description": "Get a full suit of Soulforged Steel armor"
+    "advancements.story.shiny_gear.description": "Adamantine armor saves lives",
+    "advancements.story.shiny_gear.title": "Cover Me in Adamantine"
 }

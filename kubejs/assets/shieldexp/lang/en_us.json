@@ -1,4 +1,8 @@
 {
+    "item.shieldexp.diamond_shield": "Adamantine Shield",
     "item.shieldexp.netherite_shield": "Soulforged Steel Shield",
+
+    "shieldexp.advancements.get_diamond_shield.title": "Adamantine is Unbreakable",
+    "shieldexp.advancements.get_diamond_shield.description": "Craft a Adamantine Shield",
     "shieldexp.advancements.get_netherite_shield.description": "Craft a Soulforged Steel Shield"
 }

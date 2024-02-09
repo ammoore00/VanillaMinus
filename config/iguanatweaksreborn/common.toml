@@ -893,7 +893,7 @@
 	#Adds a new attribute to add regenerating absorption hearts to the player.
 	"Enable Regenerating Absorption" = false
 	#Pickaxes deal bonus piercing damage.
-	"Enable Piercing Pickaxes" = true
+	"Enable Piercing Pickaxes" = false
 	"Enable Critical Hits" = true
 	#Shovels deal bonus knockback.
 	"Enable Bonking Shovels" = true

@@ -19,6 +19,10 @@ ServerEvents.recipes(event => {
     event.remove({output: 'create_sa:copper_chestplate'})
     event.remove({output: 'create_sa:copper_leggings'})
     event.remove({output: 'create_sa:copper_boots'})
+    event.remove({output: 'create_sa:copper_pickaxe'})
+    event.remove({output: 'create_sa:copper_shovel'})
+    event.remove({output: 'create_sa:copper_axe'})
+    event.remove({output: 'create_sa:copper_sword'})
     event.remove({output: 'create_sa:copper_hoe'})
 
     event.remove({output: 'create_sa:brass_helmet'})
@@ -40,6 +44,11 @@ ServerEvents.recipes(event => {
     event.remove({output: 'create_sa:blazing_shovel'})
     event.remove({output: 'create_sa:blazing_axe'})
     event.remove({output: 'create_sa:blazing_cleaver'})
+
+    event.remove({output: 'create_sa:rose_quartz_pickaxe'})
+    event.remove({output: 'create_sa:rose_quartz_shovel'})
+    event.remove({output: 'create_sa:rose_quartz_axe'})
+    event.remove({output: 'create_sa:rose_quartz_sword'})
     
     event.remove({output: 'create_sa:slime_helmet'})
     event.remove({output: 'create_sa:slime_boots'})
@@ -51,4 +60,6 @@ ServerEvents.recipes(event => {
     event.remove({output: 'create_sa:portable_drill'})
     event.remove({output: 'create_sa:grapplin_whisk'})
     event.remove({output: 'create_sa:block_picker'})
+    
+    event.remove({output: 'forbidden_arcanus:slimec_pickaxe'})
 })
