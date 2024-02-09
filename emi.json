@@ -1,6 +1,7 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:forbidden_arcanus:slimec_pickaxe{Damage:0}",
     "item:create:basin",
     "item:createaddition:electrum_ingot",
     "item:createaddition:electrum_sheet",
@@ -109,7 +110,6 @@
     "item:forbidden_arcanus:terrastomp_prism",
     "item:forbidden_arcanus:reinforced_deorum_sword{Damage:0}",
     "item:forbidden_arcanus:golden_feather",
-    "item:forbidden_arcanus:slimec_pickaxe{Damage:0}",
     "item:forbidden_arcanus:growing_edelwood",
     "item:forbidden_arcanus:aquatic_dragon_scale",
     "item:forbidden_arcanus:tyr_helmet{Damage:0}",

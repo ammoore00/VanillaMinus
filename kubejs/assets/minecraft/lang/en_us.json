@@ -1,0 +1,30 @@
+{
+    "block.minecraft.netherite_block": "Block of Soulforged Steel",
+
+    "item.minecraft.netherite_scrap": "Ancient Scrap",
+    "item.minecraft.netherite_ingot": "Soulforged Steel Ingot",
+
+    "item.minecraft.netherite_helmet": "Plate Helmet",
+    "item.minecraft.netherite_chestplate": "Breastplate",
+    "item.minecraft.netherite_leggings": "Plate Leggings",
+    "item.minecraft.netherite_boots": "Plate Boots",
+    "item.minecraft.netherite_axe": "Refined Axe",
+    "item.minecraft.netherite_pickaxe": "Refined Pickaxe",
+    "item.minecraft.netherite_hoe": "Refined Hoe",
+    "item.minecraft.netherite_shovel": "Refined Shovel",
+    "item.minecraft.netherite_sword": "Refined Sword",
+
+    "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Add Soulforged Steel Ingot",
+    "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Diamond Equipment",
+    "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Add diamond armor, weapon, or tool",
+    "item.minecraft.smithing_template.netherite_upgrade.ingredients": "Soulforged Steel Ingot",
+
+    "trim_material.minecraft.netherite": "Soulforged Steel Material",
+    "upgrade.minecraft.netherite_upgrade": "Soulforged Steel Upgrade",
+
+    "subtitles.item.armor.equip_netherite": "Soulforged steel armor clanks",
+    "advancements.husbandry.netherite_hoe.description": "Use a Soulforged Steel ingot to upgrade a hoe, and then reevaluate your life choices",
+
+    "advancements.nether.netherite_armor.title": "Cover Me in Steel",
+    "advancements.nether.netherite_armor.description": "Get a full suit of Soulforged Steel armor"
+}
