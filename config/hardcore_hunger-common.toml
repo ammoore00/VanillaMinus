@@ -1,0 +1,25 @@
+#Multiplier for the value of all exhaustion added to the player. Note that this does not affect other values in this config. Default 2.0
+#Range: 0.0 ~ 3.4028234663852886E38
+exhaustionCostMultiplier = 2.0
+#Exhaustion amount per second to add passively. Default 0.0125
+#Range: 0.0 ~ 3.4028234663852886E38
+passiveExhaustionAmount = 0.0125
+#Exhaustion caused by jumping. Default 0.125, Vanilla 0.05
+#Range: 0.0 ~ 3.4028234663852886E38
+exhaustionFromJumping = 0.125
+#Exhaustion caused by jumping while sprinting. Default 0.75, Vanilla 0.2
+#Range: 0.0 ~ 3.4028234663852886E38
+exhaustionFromSprintJumping = 0.75
+#Exhaustion per block traveled caused by swimming. Default 0.05, Vanilla 0.01
+#Range: 0.0 ~ 3.4028234663852886E38
+exhaustionFromSwimming = 0.05
+#Exhaustion per block traveled caused by sprinting. Default 0.05, Vanilla 0.01
+#Range: 0.0 ~ 3.4028234663852886E38
+exhaustionFromSprinting = 0.05
+#Minimum hunger value required for healing. Default 8
+#Range: 0 ~ 20
+minimumFoodForHealing = 8
+#Time between healing in seconds. Set to 0 to disable natural healing. Default 12.0.
+#Range: 0.0 ~ 3.4028234663852886E38
+timeForHealing = 12.0
+

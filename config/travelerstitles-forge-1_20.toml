@@ -29,7 +29,7 @@
 		"Default Text Color" = "ffffff"
 		# The text's scale.
 		# Default: 2.1
-		"Text Size" = 2.1
+		"Text Size" = 1.7
 		# If enabled, will render a shadow below the text making it easier to read.
 		# Default: true
 		"Display Text Shadow" = true
@@ -52,7 +52,7 @@
 		# This is the size of that list.
 		# For example, if this value is 5, then your 5 most recent biomes will be saved.
 		# Default: 5
-		"Number of Most Recent Biomes Saved" = 5
+		"Number of Most Recent Biomes Saved" = 15
 		# Whether or not the biome text should be centered on the screen.
 		# The Text X Offset and Text Y Offset options are relative to the center of the screen if this is enabled.
 		# Default: true
@@ -90,7 +90,7 @@
 		"Default Text Color" = "ffffff"
 		# The text's scale.
 		# Default: 3.0
-		"Text Size" = 3.0
+		"Text Size" = 2.5
 		# If enabled, will render a shadow below the text making it easier to read.
 		# Default: true
 		"Display Text Shadow" = true
@@ -145,7 +145,7 @@
 		"Default Text Color" = "c2b740"
 		# The text's scale.
 		# Default: 2.1
-		"Text Size" = 2.1
+		"Text Size" = 1.7
 		# If enabled, will render a shadow below the text making it easier to read.
 		# Default: true
 		"Display Text Shadow" = true
