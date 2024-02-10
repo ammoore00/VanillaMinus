@@ -1476,36 +1476,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.26666668
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:plains",
                     "parameters": {
                         "continentalness": [
@@ -1613,36 +1583,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.26666668
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -1798,66 +1738,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.26666668
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.26666668
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            -0.585,
-                            -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             -1,
@@ -2706,36 +2586,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            0.4
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.7666667
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -3096,36 +2946,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:plains",
                     "parameters": {
                         "continentalness": [
@@ -3298,36 +3118,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             -1,
@@ -3653,36 +3443,6 @@
                         "humidity": [
                             -1,
                             -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.5650000000000001
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -4956,36 +4716,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            0.05
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.93333334
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -5796,36 +5526,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.4
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:temperate_highlands",
                     "parameters": {
                         "continentalness": [
@@ -6366,66 +6066,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:arid_highlands",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.4
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.4
-                        ],
-                        "humidity": [
-                            -0.1,
-                            0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:rocky_jungle",
                     "parameters": {
                         "continentalness": [
@@ -6486,36 +6126,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:lush_desert",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.33
-                        ],
-                        "humidity": [
-                            0.3,
-                            0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.55,
-                            0.77
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:desert_oasis",
                     "parameters": {
                         "continentalness": [
@@ -6563,36 +6173,6 @@
                         "humidity": [
                             -0.35,
                             -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.77,
-                            1
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:lush_desert",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.33
-                        ],
-                        "humidity": [
-                            -0.1,
-                            0.1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -6846,36 +6426,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_valley",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.4,
-                            0.5650000000000001
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:blooming_plateau",
                     "parameters": {
                         "continentalness": [
@@ -6992,66 +6542,6 @@
                         "weirdness": [
                             -1,
                             -0.26666668
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:lavender_valley",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.4,
-                            0.5650000000000001
-                        ],
-                        "humidity": [
-                            0.1,
-                            0.3
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.155,
-                            0.2
-                        ],
-                        "weirdness": [
-                            -1,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:lavender_valley",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.4,
-                            0.5650000000000001
-                        ],
-                        "humidity": [
-                            0.3,
-                            0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.155,
-                            0.2
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.05
                         ]
                     }
                 },
@@ -7806,36 +7296,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.4
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.93333334
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:temperate_highlands",
                     "parameters": {
                         "continentalness": [
@@ -7978,36 +7438,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.93333334
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             -1,
@@ -8513,36 +7943,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.93333334
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.62,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            -0.2225
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -9186,36 +8586,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.62,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.4
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            -1,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:snowy_taiga",
                     "parameters": {
                         "continentalness": [
@@ -9516,36 +8886,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.93333334,
-                            -0.4
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:plains",
                     "parameters": {
                         "continentalness": [
@@ -9653,36 +8993,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.93333334,
-                            -0.4
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.4
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -9838,36 +9148,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            -0.93333334,
-                            -0.4
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             -0.93333334,
@@ -10193,36 +9473,6 @@
                         "humidity": [
                             -1,
                             -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            -0.93333334,
-                            -0.4
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.5650000000000001
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -11556,36 +10806,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.05
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.93333334,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:old_growth_spruce_taiga",
                     "parameters": {
                         "continentalness": [
@@ -11886,36 +11106,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.4
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            -0.93333334,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:sparse_jungle",
                     "parameters": {
                         "continentalness": [
@@ -11993,36 +11183,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.93333334,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.62,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            -0.2225
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -12996,36 +12156,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            -0.11
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            0.4
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.56666666,
-                            -0.4
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -13168,36 +12298,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            -0.56666666,
-                            -0.4
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            -0.11
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             -0.56666666,
@@ -14466,36 +13566,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            0.4
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.56666666,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -14642,36 +13712,6 @@
                         "weirdness": [
                             -0.56666666,
                             -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
-                        ],
-                        "weirdness": [
-                            -0.56666666,
-                            -0.26666668
                         ]
                     }
                 },
@@ -15576,36 +14616,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.4
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            -0.56666666,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:temperate_highlands",
                     "parameters": {
                         "continentalness": [
@@ -15748,36 +14758,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            -0.56666666,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             -0.56666666,
@@ -16566,36 +15546,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            -0.11
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            -0.375
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.4,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:plains",
                     "parameters": {
                         "continentalness": [
@@ -16678,36 +15628,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            -0.4,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            -0.11
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            -0.375
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             -0.4,
@@ -17886,36 +16806,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            0.05
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.4,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -18088,36 +16978,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            -0.4,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             -0.4,
@@ -19056,36 +17916,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.4
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            -0.4,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:temperate_highlands",
                     "parameters": {
                         "continentalness": [
@@ -19228,36 +18058,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            -0.4,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             -0.4,
@@ -19523,36 +18323,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.4,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.62,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            -0.2225
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -19926,36 +18696,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            -0.375
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            -0.26666668,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:snowy_taiga",
                     "parameters": {
                         "continentalness": [
@@ -20123,36 +18863,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.26666668,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            0.4
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -20578,36 +19288,6 @@
                         "temperature": [
                             -0.7273929370966008,
                             -0.45
-                        ],
-                        "weirdness": [
-                            -0.26666668,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            0.05
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
                         ],
                         "weirdness": [
                             -0.26666668,
@@ -22086,36 +20766,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            0.05
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.19,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -23436,36 +22086,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            -0.375
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            -0.05,
-                            0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:snowy_taiga",
                     "parameters": {
                         "continentalness": [
@@ -23633,36 +22253,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.05,
-                            0.26666668
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            -0.375
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -24503,36 +23093,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.05,
-                            0.19
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            -0.375
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -25086,36 +23646,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.62,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            -0.375
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.05,
-                            0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:dark_forest",
                     "parameters": {
                         "continentalness": [
@@ -25626,36 +24156,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_valley",
-                    "parameters": {
-                        "continentalness": [
-                            0.62,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.5650000000000001
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            -0.05,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -25806,66 +24306,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:arid_highlands",
-                    "parameters": {
-                        "continentalness": [
-                            0.62,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.4
-                        ],
-                        "humidity": [
-                            -1,
-                            0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
-                        ],
-                        "weirdness": [
-                            -0.05,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.62,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.4
-                        ],
-                        "humidity": [
-                            0.1,
-                            0.3
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
-                        ],
-                        "weirdness": [
-                            -0.05,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:rocky_jungle",
                     "parameters": {
                         "continentalness": [
@@ -25926,36 +24366,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:lush_desert",
-                    "parameters": {
-                        "continentalness": [
-                            0.62,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.33
-                        ],
-                        "humidity": [
-                            0.3,
-                            0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.55,
-                            0.77
-                        ],
-                        "weirdness": [
-                            -0.05,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:desert",
                     "parameters": {
                         "continentalness": [
@@ -25973,36 +24383,6 @@
                         "humidity": [
                             -0.35,
                             -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.77,
-                            1
-                        ],
-                        "weirdness": [
-                            -0.05,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:lush_desert",
-                    "parameters": {
-                        "continentalness": [
-                            0.62,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.33
-                        ],
-                        "humidity": [
-                            -0.1,
-                            0.1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -26496,36 +24876,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            -0.11
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            -0.375
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.05,
-                            0.56666666
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -26668,36 +25018,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            0.05,
-                            0.56666666
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            -0.11
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            -0.375
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             0.05,
@@ -28176,36 +26496,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            -0.375
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            0.05,
-                            0.26666668
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:snowy_taiga",
                     "parameters": {
                         "continentalness": [
@@ -28373,36 +26663,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.05,
-                            0.26666668
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -1,
-                            -0.375
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -28926,36 +27186,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.05,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:plains",
                     "parameters": {
                         "continentalness": [
@@ -29076,36 +27306,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:lavender_forest",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.4
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.05,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:sunflower_plains",
                     "parameters": {
                         "continentalness": [
@@ -29158,36 +27358,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            0.05,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.4
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             0.05,
@@ -29393,36 +27563,6 @@
                         "humidity": [
                             -1,
                             -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            0.05,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.5650000000000001
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -29946,36 +28086,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
-                        ],
-                        "weirdness": [
-                            0.05,
-                            0.4
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:savanna",
                     "parameters": {
                         "continentalness": [
@@ -30113,36 +28223,6 @@
                         "humidity": [
                             -1,
                             -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            0.05,
-                            0.56666666
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.4
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -30323,36 +28403,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.05,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.05
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -30756,36 +28806,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_valley",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.5650000000000001
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.05,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -30936,66 +28956,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:arid_highlands",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.4
-                        ],
-                        "humidity": [
-                            -1,
-                            0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
-                        ],
-                        "weirdness": [
-                            0.05,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.4
-                        ],
-                        "humidity": [
-                            0.1,
-                            0.3
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
-                        ],
-                        "weirdness": [
-                            0.05,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:rocky_jungle",
                     "parameters": {
                         "continentalness": [
@@ -31056,36 +29016,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:lush_desert",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.33
-                        ],
-                        "humidity": [
-                            0.3,
-                            0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.55,
-                            0.77
-                        ],
-                        "weirdness": [
-                            0.05,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:desert",
                     "parameters": {
                         "continentalness": [
@@ -31103,36 +29033,6 @@
                         "humidity": [
                             -0.35,
                             -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.77,
-                            1
-                        ],
-                        "weirdness": [
-                            0.05,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:lush_desert",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.33
-                        ],
-                        "humidity": [
-                            -0.1,
-                            0.1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -32496,36 +30396,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.4
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            0.05,
-                            0.4
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:snowy_taiga",
                     "parameters": {
                         "continentalness": [
@@ -32698,36 +30568,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            0.05,
-                            0.4
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             0.05,
@@ -33486,36 +31326,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.62,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            -0.2225
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.05,
-                            0.4
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -34836,36 +32646,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            0.05
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.19,
-                            0.4
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -35406,36 +33186,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.26666668,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:plains",
                     "parameters": {
                         "continentalness": [
@@ -35543,36 +33293,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.26666668,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:lavender_forest",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.4
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -35728,36 +33448,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            0.26666668,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.4
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             0.26666668,
@@ -35963,36 +33653,6 @@
                         "humidity": [
                             -1,
                             -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            0.26666668,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.05,
-                            0.4
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -36366,36 +34026,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            -0.11
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            0.26666668,
-                            0.4
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:snowy_taiga",
                     "parameters": {
                         "continentalness": [
@@ -36576,36 +34206,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:lavender_forest",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            -0.11
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.26666668,
-                            0.4
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:sunflower_plains",
                     "parameters": {
                         "continentalness": [
@@ -36748,36 +34348,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            0.26666668,
-                            0.4
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            -0.11
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             0.26666668,
@@ -37626,36 +35196,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            -0.375
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.26666668,
-                            0.56666666
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -37768,36 +35308,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            0.26666668,
-                            0.56666666
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            0.4
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             0.26666668,
@@ -38333,36 +35843,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.26666668,
-                            0.4
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            0.05
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -39456,36 +36936,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.4,
-                            0.93333334
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:plains",
                     "parameters": {
                         "continentalness": [
@@ -39593,36 +37043,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.4,
-                            0.93333334
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:lavender_forest",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.4
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -39778,36 +37198,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            0.4,
-                            0.93333334
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.4
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             0.4,
@@ -40013,36 +37403,6 @@
                         "humidity": [
                             -1,
                             -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            0.4,
-                            0.93333334
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.4,
-                            0.5650000000000001
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -41736,36 +39096,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
-                        ],
-                        "weirdness": [
-                            0.4,
-                            0.56666666
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:savanna",
                     "parameters": {
                         "continentalness": [
@@ -42473,36 +39803,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.4,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.62,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.375,
-                            -0.2225
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -43596,36 +40896,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.4
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            0.56666666,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:snowy_taiga",
                     "parameters": {
                         "continentalness": [
@@ -43798,36 +41068,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            0.56666666,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             0.56666666,
@@ -44376,36 +41616,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            -0.11
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            0.7666667,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:snowy_taiga",
                     "parameters": {
                         "continentalness": [
@@ -44586,36 +41796,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:lavender_forest",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            -0.11
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.7666667,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:sunflower_plains",
                     "parameters": {
                         "continentalness": [
@@ -44758,36 +41938,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            0.7666667,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.2,
-                            -0.11
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             0.7666667,
@@ -45666,36 +42816,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            -0.375
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.7666667,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -45838,36 +42958,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            0.7666667,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            -0.11,
-                            0.03
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            0.4
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             0.7666667,
@@ -47946,36 +45036,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            0.05
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.93333334,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:alpine_highlands",
                     "parameters": {
                         "continentalness": [
@@ -48118,36 +45178,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            0.93333334,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            -0.375
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             0.93333334,
@@ -48726,36 +45756,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:cold_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.4
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.7273929370966008,
-                            -0.45
-                        ],
-                        "weirdness": [
-                            0.93333334,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:snowy_taiga",
                     "parameters": {
                         "continentalness": [
@@ -48936,36 +45936,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:hot_shrubland",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            0.62
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.2225,
-                            0.05
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
-                        ],
-                        "weirdness": [
-                            0.93333334,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "minecraft:savanna",
                     "parameters": {
                         "continentalness": [
@@ -49133,36 +46103,6 @@
                         "humidity": [
                             0.3,
                             0.5650000000000001
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.45,
-                            -0.155
-                        ],
-                        "weirdness": [
-                            0.93333334,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:moonlight_grove",
-                    "parameters": {
-                        "continentalness": [
-                            0.62,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            -0.78,
-                            -0.2225
-                        ],
-                        "humidity": [
-                            0.5650000000000001,
-                            1
                         ],
                         "offset": 0,
                         "temperature": [
