@@ -1,12 +1,15 @@
 ServerEvents.recipes(event => {
-    event.remove({id: 'quark:building/crafting/furnaces/mixed_furnace'})
+    //event.remove({id: 'quark:building/crafting/furnaces/mixed_furnace'})
+
+    // Misnamed recipe
     event.remove({id: 'quark:building/crafting/furnaces/cobblestone_furnace'})
 
     event.shaped(
         'quark:blackstone_furnace',
         [
             'SSS',
-            'C C',
+            //'C C',
+            'S S',
             'SSS'
         ],
         {
@@ -19,7 +22,8 @@ ServerEvents.recipes(event => {
         'quark:deepslate_furnace',
         [
             'SSS',
-            'C C',
+            //'C C',
+            'S S',
             'SSS'
         ],
         {
@@ -42,7 +46,7 @@ ServerEvents.recipes(event => {
             F: '#btw:furnaces',
             S: 'minecraft:smooth_stone'
         }
-    )
+    ).id('minecraft:blast_furnace')
 })
 
 ServerEvents.tags('item', event => {

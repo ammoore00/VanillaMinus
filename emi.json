@@ -1,6 +1,12 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:blast_furnace",
+    "item:minecraft:furnace",
+    "item:quark:deepslate_furnace",
+    "item:quark:blackstone_furnace",
+    "item:immersive_weathering:earthen_clay",
+    "item:immersive_weathering:grassy_earthen_clay",
     "item:minecraft:torch",
     "item:biomesoplenty:dried_salt",
     "item:biomesoplenty:flesh",
@@ -201,11 +207,7 @@
     "item:create:powdered_obsidian",
     "item:create:copper_nugget",
     "item:minecraft:copper_ingot",
-    "item:minecraft:furnace",
     "item:minecraft:furnace_minecart",
-    "item:minecraft:blast_furnace",
-    "item:quark:deepslate_furnace",
-    "item:quark:blackstone_furnace",
     "item:create_central_kitchen:pumpkin_pie_slice",
     "item:minecraft:iron_ingot",
     "item:create:crushed_raw_gold",
@@ -241,9 +243,7 @@
     "vct:cherry_crafting_table"
   ],
   "recipe_defaults": {
-    "added": [
-      "minecraft:furnace"
-    ],
+    "added": [],
     "tags": {},
     "resolutions": {},
     "disabled": []
