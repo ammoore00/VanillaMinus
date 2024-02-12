@@ -53,7 +53,7 @@
 				kapok = true
 				larch = true
 				maple = true
-				mauve = true
+				mauve = false
 				orange_maple = true
 				palm = true
 				pine = true
@@ -82,9 +82,9 @@
 				redwood = false
 				mahogany = true
 				jacaranda = true
-				palm = true
-				willow = true
-				dead = true
+				palm = false
+				willow = false
+				dead = false
 				magic = true
 				umbran = false
 				hellbark = true
@@ -107,7 +107,7 @@
 				edelwood = true
 
 			[general.types.wood_type.regions_unexplored]
-				alpha = true
+				alpha = false
 				baobab = true
 				blackwood = true
 				blue_bioshroom = true
@@ -122,7 +122,7 @@
 				larch = true
 				magnolia = true
 				maple = true
-				mauve = true
+				mauve = false
 				palm = true
 				pine = true
 				pink_bioshroom = true
@@ -136,9 +136,9 @@
 				redwood = false
 				mahogany = true
 				jacaranda = true
-				palm = true
-				willow = true
-				dead = true
+				palm = false
+				willow = false
+				dead = false
 				magic = true
 				umbran = false
 				hellbark = true

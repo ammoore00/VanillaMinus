@@ -6876,66 +6876,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:fractured_savanna",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.155,
-                            0.2
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:fractured_savanna",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            -0.585,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.155,
-                            0.2
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.05
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:stony_spires",
                     "parameters": {
                         "continentalness": [
@@ -6983,36 +6923,6 @@
                         "humidity": [
                             -1,
                             -0.35
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
-                        ],
-                        "weirdness": [
-                            -1,
-                            -0.05
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:fractured_savanna",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
                         ],
                         "offset": 0,
                         "temperature": [
@@ -7737,36 +7647,6 @@
                         "offset": 0,
                         "temperature": [
                             -0.155,
-                            0.55
-                        ],
-                        "weirdness": [
-                            -1,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:fractured_savanna",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
                             0.55
                         ],
                         "weirdness": [
@@ -23466,36 +23346,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:fractured_savanna",
-                    "parameters": {
-                        "continentalness": [
-                            0.3,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.155,
-                            0.55
-                        ],
-                        "weirdness": [
-                            -0.05,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:siberian_taiga",
                     "parameters": {
                         "continentalness": [
@@ -29586,66 +29436,6 @@
                     }
                 },
                 {
-                    "biome": "terralith:fractured_savanna",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            -1,
-                            -0.585
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.155,
-                            0.2
-                        ],
-                        "weirdness": [
-                            0.05,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:fractured_savanna",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            0.3
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            -0.585,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            -0.155,
-                            0.2
-                        ],
-                        "weirdness": [
-                            0.05,
-                            1
-                        ]
-                    }
-                },
-                {
                     "biome": "terralith:stony_spires",
                     "parameters": {
                         "continentalness": [
@@ -29668,36 +29458,6 @@
                         "temperature": [
                             -0.155,
                             0.2
-                        ],
-                        "weirdness": [
-                            0.05,
-                            1
-                        ]
-                    }
-                },
-                {
-                    "biome": "terralith:fractured_savanna",
-                    "parameters": {
-                        "continentalness": [
-                            0.03,
-                            1
-                        ],
-                        "depth": [
-                            -0.005,
-                            0
-                        ],
-                        "erosion": [
-                            0.5650000000000001,
-                            1
-                        ],
-                        "humidity": [
-                            -0.35,
-                            -0.1
-                        ],
-                        "offset": 0,
-                        "temperature": [
-                            0.2,
-                            0.55
                         ],
                         "weirdness": [
                             0.05,

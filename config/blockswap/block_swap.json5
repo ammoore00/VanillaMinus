@@ -11,7 +11,7 @@ to make editing this file much easier.
 	// Generates all block states for all blocks in the registry.
 	"generate_all_known_states": true,
 	// Whether blocks are replaced in existing chunks.
-	"retro_gen": false,
+	"retro_gen": true,
 	/* A map of states that specifies what the "old" block state is and what its "new" block state is.
 	   See "known_states" folder("generate_all_known_states" must be set to true in this config) to see all known block states available for all blocks available in the registry.
 	   Example:
@@ -86,6 +86,14 @@ to make editing this file much easier.
 	*/
 	"swapper": {
 		"ecologics:thin_ice": "minecraft:ice",
-		"forbidden_arcanus:nuggety_aurum_leaves":"forbidden_arcanus:aurum_leaves"
+		"regions_unexplored:mossy_stone": "immersive_weathering:mossy_stone",
+
+		"forbidden_arcanus:nuggety_aurum_leaves":"forbidden_arcanus:aurum_leaves",
+		"biomesoplenty:palm_log": "regions_unexplored:palm_log",
+		"biomesoplenty:palm_leaves": "regions_unexplored:palm_leaves",
+		"regions_unexplored:mauve_log": "biomesoplenty:jacaranda_log",
+		"regions_unexplored:mauve_leaves": "biomesoplenty:jacaranda_leaves",
+
+		"regions_unexplored:mycotoxic_mushrooms": "regions_unexplored:yellow_bioshroom"
 	}
 }
