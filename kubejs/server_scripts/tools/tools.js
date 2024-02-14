@@ -60,6 +60,4 @@ ServerEvents.recipes(event => {
     event.remove({output: 'create_sa:portable_drill'})
     event.remove({output: 'create_sa:grapplin_whisk'})
     event.remove({output: 'create_sa:block_picker'})
-    
-    event.remove({output: 'forbidden_arcanus:slimec_pickaxe'})
 })

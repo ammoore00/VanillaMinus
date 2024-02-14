@@ -7,14 +7,4 @@ ServerEvents.recipes(event => {
         ]
     ).heated()
     .id('btw:mixing/electrum_alloying')
-
-    event.recipes.create.mixing(
-        'forbidden_arcanus:deorum_ingot',
-        [
-            'createaddition:electrum_ingot',
-            '2x forbidden_arcanus:arcane_crystal_dust',
-            '2x forbidden_arcanus:mundabitur_dust'
-        ]
-    ).heated()
-    .id('forbidden_arcanus:deorum_ingot')
 })

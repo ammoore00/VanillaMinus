@@ -35,6 +35,4 @@ ServerEvents.recipes(event => {
             Fluid.of('create_enchantment_industry:experience', 243).toJson()
         ]
     }).id('create_enchantment_industry:disenchanting/experience_block')
-
-    event.replaceInput({}, 'forbidden_arcanus:xpetrified_orb', 'create_sa:heap_of_experience')
 })
