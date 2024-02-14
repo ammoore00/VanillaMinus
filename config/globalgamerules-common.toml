@@ -100,8 +100,6 @@
 		snow_accumulation_height = 1
 		#Whether new sources of water are allowed to form.
 		water_source_conversion = true
-		#Non Vanilla gamerule: 'doSeasonCycle'
-		do_season_cycle = true
 
 	[gamerules.spawning]
 		#Whether phantoms can spawn in the nighttime.
