@@ -3,9 +3,9 @@ ServerEvents.recipes(event => {
         'supplementaries:antique_ink',
         [
             'minecraft:glass_bottle',
-            '#btw:ink_materials'
+            '#dawn:ink_materials'
         ]
-    ).id('btw:antique_ink')
+    ).id('dawn:antique_ink')
 
     event.recipes.create.filling(
         'supplementaries:antique_ink',
@@ -13,11 +13,11 @@ ServerEvents.recipes(event => {
             'minecraft:glass_bottle',
             Fluid.of('create_enchantment_industry:ink', 250)
         ]
-    ).id('btw:filling/antique_ink')
+    ).id('dawn:filling/antique_ink')
 })
 
 ServerEvents.tags('item', event => {
-    event.add('btw:ink_materials', [
+    event.add('dawn:ink_materials', [
         'minecraft:ink_sac',
         'minecraft:glow_ink'
     ])

@@ -11,5 +11,5 @@ ServerEvents.recipes(event => {
             R: 'createaddition:gold_rod',
             S: 'create:golden_sheet'
         }
-    ).id('btw:globe')
+    ).id('dawn:globe')
 })

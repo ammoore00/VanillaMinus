@@ -6,5 +6,5 @@ ServerEvents.recipes(event => {
             'create:zinc_ingot'
         ]
     ).heated()
-    .id('btw:mixing/electrum_alloying')
+    .id('dawn:mixing/electrum_alloying')
 })

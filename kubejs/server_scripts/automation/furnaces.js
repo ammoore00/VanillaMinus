@@ -43,14 +43,14 @@ ServerEvents.recipes(event => {
         ],
         {
             I: 'createdeco:industrial_iron_sheet',
-            F: '#btw:furnaces',
+            F: '#dawn:furnaces',
             S: 'minecraft:smooth_stone'
         }
     ).id('minecraft:blast_furnace')
 })
 
 ServerEvents.tags('item', event => {
-    event.add('btw:furnaces', [
+    event.add('dawn:furnaces', [
         'minecraft:furnace',
         'quark:deepslate_furnace',
         'quark:blackstone_furnace'

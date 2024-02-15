@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.pressing(
         'kubejs:deorum_sheet',
         'forbidden_arcanus:deorum_ingot'
-    ).id('btw:pressing/deorum_sheet')
+    ).id('dawn:pressing/deorum_sheet')
 
     //------ Rolling ------//
 

@@ -13,11 +13,11 @@ def generate_variants(input_block, input_mod, variant_base, variant_list, varian
             else:
                 variant_block = variant_mod[0] + ":"
         # Supplementaries-specific variant options
-        elif (variant_mod[1] == "supplementaries"):
+        elif (variant_mod[1] == "supplementaries" or variant_mod[1] == "immersive_weathering"):
             if input_mod == "minecraft":
-                variant_block = "supplementaries:"
+                variant_block = variant_mod[1] + ":"
             else:
-                variant_block = "supplementaries:" + input_mod + "/"
+                variant_block = variant_mod[1] + ":" + input_mod + "/"
         # Variants which are covered by everycomp
         # Third name is the everycomp alias
         elif (variant_mod[1] == "everycomp"):
@@ -132,6 +132,9 @@ def main():
         generate_variants(plank_block, wood_mod, wood, plank_variants, variant_file, recipe_file)
     
     # One-offs
+    generate_single_variant("fence", "minecraft:oak_log", "regions_unexplored:small_oak_log", variant_file, recipe_file)
+    generate_single_variant("unique", "minecraft:stripped_oak_log", "regions_unexplored:stripped_small_oak_log", variant_file, recipe_file)
+
     generate_single_variant("slab", "regions_unexplored:blue_bioshroom_stem", "regions_unexplored:blue_bioshroom_hyphae", variant_file, recipe_file)
     generate_single_variant("slab", "regions_unexplored:green_bioshroom_stem", "regions_unexplored:green_bioshroom_hyphae", variant_file, recipe_file)
     generate_single_variant("slab", "regions_unexplored:pink_bioshroom_stem", "regions_unexplored:pink_bioshroom_hyphae", variant_file, recipe_file)
@@ -140,10 +143,87 @@ def main():
     generate_single_variant("slab", "regions_unexplored:stripped_green_bioshroom_stem", "regions_unexplored:stripped_green_bioshroom_hyphae", variant_file, recipe_file)
     generate_single_variant("slab", "regions_unexplored:stripped_pink_bioshroom_stem", "regions_unexplored:stripped_pink_bioshroom_hyphae", variant_file, recipe_file)
 
+    #=============================#
+    # ------ Leaf Variants ------ #
+    #=============================#
+    
+    leaf_types = {
+        "oak":"minecraft",
+        "spruce":"minecraft",
+        "birch":"minecraft",
+        "jungle":"minecraft",
+        "acacia":"minecraft",
+        "dark_oak":"minecraft",
+        "mangrove":"minecraft",
+        "cherry":"minecraft",
+        "azalea":"minecraft",
+        "flowering_azalea":"minecraft",
+
+        "blue_blossom":"quark",
+        "purple_blossom":"quark",
+        "orange_blossom":"quark",
+        "yellow_blossom":"quark",
+        "red_blossom":"quark",
+        "ancient":"quark",
+
+        "fir":"biomesoplenty",
+        "jacaranda":"biomesoplenty",
+        "magic":"biomesoplenty",
+        "flowering_oak":"biomesoplenty",
+        "snowblossom":"biomesoplenty",
+        "rainbow_birch":"biomesoplenty",
+        "yellow_autumn":"biomesoplenty",
+        "orange_autumn":"biomesoplenty",
+        "red_autumn":"biomesoplenty",
+
+        "baobab":"regions_unexplored",
+        "blackwood":"regions_unexplored",
+        "cypress":"regions_unexplored",
+        "dead":"regions_unexplored",
+        "eucalyptus":"regions_unexplored",
+        "joshua":"regions_unexplored",
+        "kapok":"regions_unexplored",
+        "larch":"regions_unexplored",
+        "palm":"regions_unexplored",
+        "pine":"regions_unexplored",
+        "redwood":"regions_unexplored",
+        "willow":"regions_unexplored",
+        "bamboo":"regions_unexplored",
+        "dead_pine":"regions_unexplored",
+        "flowering":"regions_unexplored",
+        "golden_larch":"regions_unexplored",
+        "small_oak":"regions_unexplored",
+        
+        "coconut":"ecologics",
+        "walnut":"ecologics",
+    }
+
+    leaf_variants = {
+        tuple(["","hedge","slab"]):tuple(["quark", "everycomp", "q"]),
+        tuple(["","leaf_pile","stairs"]):tuple(["immersive_weathering", "immersive_weathering"]),
+    }
+
+    for leaf, leaf_mod in leaf_types.items():
+        leaf_block = leaf_mod + ":" + leaf + "_leaves"
+        generate_variants(leaf_block, leaf_mod, leaf, leaf_variants, variant_file, recipe_file)
+
+    #=============================#
+    # ------ Misc Variants ------ #
+    #=============================#
+    
+    generate_single_variant("fence", "supplementaries:daub_frame", "supplementaries:daub_brace", variant_file, recipe_file)
+    generate_single_variant("pillar", "supplementaries:daub_frame", "supplementaries:daub_cross_brace", variant_file, recipe_file)
+    
+    generate_single_variant("slab", "supplementaries:timber_frame", "supplementaries:timber_brace", variant_file, recipe_file)
+    generate_single_variant("stairs", "supplementaries:timber_frame", "supplementaries:timber_cross_brace", variant_file, recipe_file)
+    
+    generate_single_variant("slab", "supplementaries:metal_frame", "supplementaries:metal_brace", variant_file, recipe_file)
+    generate_single_variant("stairs", "supplementaries:metal_frame", "supplementaries:metal_cross_brace", variant_file, recipe_file)
+
     recipe_file.write("\tevent.remove({output: '/.*stairs.*/'})\n")
     recipe_file.write("\tevent.remove({output: '/.*slab.*/'})\n")
     recipe_file.write("\tevent.remove({output: '/.*fence.*/'})\n")
-    recipe_file.write("\tevent.remove({output: '/.*wall.*/'})\n")
+    recipe_file.write("\tevent.remove({output: '/.*:(?!paper_).*wall.*/'})\n")
     recipe_file.write("\tevent.remove({output: '/.*fence_gate.*/'})\n")
     recipe_file.write("\tevent.remove({output: '/.*carpet.*/'})\n")
     recipe_file.write("\tevent.remove({output: '/.*pane.*/'})\n")
