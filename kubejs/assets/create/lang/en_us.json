@@ -1,10 +1,10 @@
 {
-    "advancement.create.diving_suit_lava.desc": "Attempt to take a dive in lava with your soulforged steel diving gear",
+    "advancement.create.diving_suit_lava.desc": "Attempt to take a dive in lava with your steel diving gear",
 
-    "block.create.netherite_backtank": "Soulforged Steel Backtank",
-    "item.create.netherite_backtank": "Soulforged Steel Backtank",
-    "item.create.netherite_backtank_placeable": "Soulforged Steel Backtank Placeable",
-    "item.create.netherite_diving_boots": "Soulforged Steel Diving Boots",
-    "item.create.netherite_diving_helmet": "Soulforged Steel Diving Helmet",
-    "item.create.netherite_diving_helmet.tooltip.summary": "Together with a _Soulforged Steel Backtank_, this can protect you from _extreme heat_. To be effective, _Legs and Feet_ have to be covered in _Soulforged Steel_, too."
+    "block.create.netherite_backtank": "Steel Backtank",
+    "item.create.netherite_backtank": "Steel Backtank",
+    "item.create.netherite_backtank_placeable": "Steel Backtank Placeable",
+    "item.create.netherite_diving_boots": "Steel Diving Boots",
+    "item.create.netherite_diving_helmet": "Steel Diving Helmet",
+    "item.create.netherite_diving_helmet.tooltip.summary": "Together with a _Steel Backtank_, this can protect you from _extreme heat_. To be effective, _Legs and Feet_ have to be covered in _Steel_, too."
 }

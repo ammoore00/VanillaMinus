@@ -1,8 +1,8 @@
 {
-    "block.minecraft.netherite_block": "Block of Soulforged Steel",
+    "block.minecraft.netherite_block": "Block of Steel",
 
     "item.minecraft.netherite_scrap": "Ancient Scrap",
-    "item.minecraft.netherite_ingot": "Soulforged Steel Ingot",
+    "item.minecraft.netherite_ingot": "Steel Ingot",
 
     "item.minecraft.diamond_axe": "Adamantine Axe",
     "item.minecraft.diamond_boots": "Adamantine Boots",
@@ -24,18 +24,18 @@
     "item.minecraft.netherite_shovel": "Refined Shovel",
     "item.minecraft.netherite_sword": "Refined Sword",
 
-    "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Add Soulforged Steel Ingot",
+    "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Add Steel Ingot",
     "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Diamond Equipment",
     "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Add diamond armor, weapon, or tool",
-    "item.minecraft.smithing_template.netherite_upgrade.ingredients": "Soulforged Steel Ingot",
+    "item.minecraft.smithing_template.netherite_upgrade.ingredients": "Steel Ingot",
 
-    "trim_material.minecraft.netherite": "Soulforged Steel Material",
-    "upgrade.minecraft.netherite_upgrade": "Soulforged Steel Upgrade",
+    "trim_material.minecraft.netherite": "Steel Material",
+    "upgrade.minecraft.netherite_upgrade": "Steel Upgrade",
 
-    "subtitles.item.armor.equip_netherite": "Soulforged steel armor clanks",
-    "advancements.husbandry.netherite_hoe.description": "Use a Soulforged Steel ingot to upgrade a hoe, and then reevaluate your life choices",
+    "subtitles.item.armor.equip_netherite": "steel armor clanks",
+    "advancements.husbandry.netherite_hoe.description": "Use a Steel ingot to upgrade a hoe, and then reevaluate your life choices",
 
-    "advancements.nether.netherite_armor.description": "Get a full suit of Soulforged Steel armor",
+    "advancements.nether.netherite_armor.description": "Get a full suit of Steel armor",
     "advancements.nether.netherite_armor.title": "Cover Me in Steel",
     "advancements.story.shiny_gear.description": "Adamantine armor saves lives",
     "advancements.story.shiny_gear.title": "Cover Me in Adamantine"
