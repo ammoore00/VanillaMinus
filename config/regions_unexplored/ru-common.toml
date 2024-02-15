@@ -70,7 +70,7 @@
 	toggle_redwoods = true
 	toggle_saguaro_desert = true
 	toggle_shrubland = true
-	toggle_silver_birch_forest = true
+	toggle_silver_birch_forest = false
 	toggle_sparse_rainforest = true
 	toggle_sparse_redwoods = true
 	toggle_spires = true

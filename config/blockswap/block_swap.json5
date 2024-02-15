@@ -94,7 +94,9 @@ to make editing this file much easier.
 		"biomesoplenty:palm_leaves": "regions_unexplored:palm_leaves",
 		"regions_unexplored:mauve_log": "biomesoplenty:jacaranda_log",
 		"regions_unexplored:mauve_leaves": "biomesoplenty:jacaranda_leaves",
+		"regions_unexplored:silver_birch_log": "biomesoplenty:magic_log",
+		"regions_unexplored:enchanted_birch_leaves": "biomesoplenty:magic_leaves",
 
-		"regions_unexplored:mycotoxic_mushrooms": "regions_unexplored:yellow_bioshroom"
+		"regions_unexplored:barley": "biomesoplenty:barley"
 	}
 }

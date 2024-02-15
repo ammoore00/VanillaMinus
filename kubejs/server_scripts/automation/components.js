@@ -8,11 +8,11 @@ ServerEvents.recipes(event => {
     event.recipes.create.sequenced_assembly(
         [
             Item.of('create_sa:steam_engine').withChance(120),
-            Item.of('kubejs:deorum_sheet').withChance(8),
+            Item.of('createaddition:electrum_sheet').withChance(8),
             Item.of('create:cogwheel').withChance(4),
             Item.of('create:large_cogwheel').withChance(2)
         ],
-        'kubejs:deorum_sheet',
+        'createaddition:electrum_sheet',
         [
             event.recipes.create.deploying(
                 'create_sa:incomplete_steam_engine',
@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
                 'create_sa:incomplete_steam_engine',
                 [
                     'create_sa:incomplete_steam_engine',
-                    'forbidden_arcanus:arcane_crystal'
+                    'minecraft:amethyst_shard'
                 ]
             )
         ]

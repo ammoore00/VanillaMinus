@@ -21,10 +21,6 @@
 
 		[general.types.leaves_type]
 
-			[general.types.leaves_type.forbidden_arcanus]
-				aurum = true
-				nuggety_aurum = true
-
 			[general.types.leaves_type.ecologics]
 				coconut = true
 				walnut = true
@@ -61,10 +57,10 @@
 				pink_magnolia = true
 				redwood = true
 				red_maple = true
-				brimwood = true
-				enchanted_birch = true
+				brimwood = false
+				enchanted_birch = false
 				small_oak = true
-				silver_birch = true
+				silver_birch = false
 				socotra = true
 				white_magnolia = true
 				willow = true
@@ -80,14 +76,14 @@
 				snowblossom = true
 				fir = true
 				redwood = false
-				mahogany = true
+				mahogany = false
 				jacaranda = true
 				palm = false
 				willow = false
 				dead = false
 				magic = true
 				umbran = false
-				hellbark = true
+				hellbark = false
 
 		[general.types.wood_type]
 
@@ -102,17 +98,13 @@
 				ancient = true
 				blossom = true
 
-			[general.types.wood_type.forbidden_arcanus]
-				aurum = true
-				edelwood = true
-
 			[general.types.wood_type.regions_unexplored]
 				alpha = false
 				baobab = true
 				blackwood = true
 				blue_bioshroom = true
-				brimwood = true
-				cobalt = true
+				brimwood = false
+				cobalt = false
 				cypress = true
 				dead = true
 				eucalyptus = true
@@ -120,8 +112,8 @@
 				joshua = true
 				kapok = true
 				larch = true
-				magnolia = true
-				maple = true
+				magnolia = false
+				maple = false
 				mauve = false
 				palm = true
 				pine = true
@@ -129,19 +121,19 @@
 				redwood = true
 				socotra = true
 				willow = true
-				yellow_bioshroom = true
+				yellow_bioshroom = false
 
 			[general.types.wood_type.biomesoplenty]
 				fir = true
 				redwood = false
-				mahogany = true
+				mahogany = false
 				jacaranda = true
 				palm = false
 				willow = false
 				dead = false
 				magic = true
 				umbran = false
-				hellbark = true
+				hellbark = false
 
 		[general.types.cake]
 
