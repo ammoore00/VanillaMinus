@@ -281,6 +281,8 @@
 "stairs,biomesoplenty:orange_autumn_leaves,immersive_weathering:biomesoplenty/orange_autumn_leaf_pile",
 "slab,biomesoplenty:red_autumn_leaves,everycomp:q/biomesoplenty/red_autumn_hedge",
 "stairs,biomesoplenty:red_autumn_leaves,immersive_weathering:biomesoplenty/red_autumn_leaf_pile",
+"slab,biomesoplenty:maple_leaves,everycomp:q/biomesoplenty/maple_hedge",
+"stairs,biomesoplenty:maple_leaves,immersive_weathering:biomesoplenty/maple_leaf_pile",
 "slab,regions_unexplored:baobab_leaves,everycomp:q/regions_unexplored/baobab_hedge",
 "stairs,regions_unexplored:baobab_leaves,immersive_weathering:regions_unexplored/baobab_leaf_pile",
 "slab,regions_unexplored:blackwood_leaves,everycomp:q/regions_unexplored/blackwood_hedge",
@@ -323,6 +325,7 @@
 "pillar,supplementaries:daub_frame,supplementaries:daub_cross_brace",
 "slab,supplementaries:timber_frame,supplementaries:timber_brace",
 "stairs,supplementaries:timber_frame,supplementaries:timber_cross_brace",
-"slab,supplementaries:metal_frame,supplementaries:metal_brace",
-"stairs,supplementaries:metal_frame,supplementaries:metal_cross_brace",
+"slab,suppsquared:metal_frame,suppsquared:metal_brace",
+"stairs,suppsquared:metal_frame,suppsquared:metal_cross_brace",
+"slab,minecraft:iron_bars,supplementaries:iron_gate",
 ]

@@ -175,6 +175,7 @@ def main():
         "yellow_autumn":"biomesoplenty",
         "orange_autumn":"biomesoplenty",
         "red_autumn":"biomesoplenty",
+        "maple":"biomesoplenty",
 
         "baobab":"regions_unexplored",
         "blackwood":"regions_unexplored",
@@ -207,6 +208,29 @@ def main():
         leaf_block = leaf_mod + ":" + leaf + "_leaves"
         generate_variants(leaf_block, leaf_mod, leaf, leaf_variants, variant_file, recipe_file)
 
+    #================================#
+    # ------ Colored Variants ------ #
+    #================================#
+        
+    colors = [
+        "white",
+        "light_gray",
+        "gray",
+        "black",
+        "brown",
+        "red",
+        "orange",
+        "yellow",
+        "lime",
+        "green",
+        "cyan",
+        "light_blue",
+        "blue",
+        "purple",
+        "magenta",
+        "pink"
+    ]
+
     #=============================#
     # ------ Misc Variants ------ #
     #=============================#
@@ -217,8 +241,16 @@ def main():
     generate_single_variant("slab", "supplementaries:timber_frame", "supplementaries:timber_brace", variant_file, recipe_file)
     generate_single_variant("stairs", "supplementaries:timber_frame", "supplementaries:timber_cross_brace", variant_file, recipe_file)
     
-    generate_single_variant("slab", "supplementaries:metal_frame", "supplementaries:metal_brace", variant_file, recipe_file)
-    generate_single_variant("stairs", "supplementaries:metal_frame", "supplementaries:metal_cross_brace", variant_file, recipe_file)
+    generate_single_variant("slab", "suppsquared:metal_frame", "suppsquared:metal_brace", variant_file, recipe_file)
+    generate_single_variant("stairs", "suppsquared:metal_frame", "suppsquared:metal_cross_brace", variant_file, recipe_file)
+    
+    generate_single_variant("slab", "minecraft:iron_bars", "supplementaries:iron_gate", variant_file, recipe_file)
+    
+    #generate_single_variant("slab", "minecraft:rail", "little_logistics:switch_rail", variant_file, recipe_file)
+    #generate_single_variant("stairs", "minecraft:rail", "little_logistics:tee_junction_rail", variant_file, recipe_file)
+    #generate_single_variant("fence", "minecraft:rail", "little_logistics:junction_rail", variant_file, recipe_file)
+    
+    #generate_single_variant("slab", "little_logistics:automatic_switch_rail", "little_logistics:automatic_tee_junction_rail", variant_file, recipe_file)
 
     recipe_file.write("\tevent.remove({output: '/.*stairs.*/'})\n")
     recipe_file.write("\tevent.remove({output: '/.*slab.*/'})\n")

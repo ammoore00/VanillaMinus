@@ -12,4 +12,15 @@ ServerEvents.recipes(event => {
             S: 'create:golden_sheet'
         }
     ).id('dawn:globe')
+
+    event.shaped(
+        'supplementaries:timber_frame',
+        [
+            'SS',
+            'SS'
+        ],
+        {
+            S: '#forge:rods/wooden'
+        }
+    ).id('supplementaries:timber_frame')
 })
