@@ -379,7 +379,7 @@
 	/**
 	 * Display the recipe that will be used to craft on a stack with no recipe context.
 	 */
-	show-craft: "key.keyboard.left.shift";
+	show-craft: "key.keyboard.unknown";
 
 	/**
 	 * Cheat in one of an item into the inventory.
@@ -432,7 +432,7 @@
 	/**
 	 * Whether editing the index is enabled
 	 */
-	edit-mode: true;
+	edit-mode: false;
 
 	/**
 	 * Whether to log untranslated tags as warnings.
