@@ -97,6 +97,13 @@ to make editing this file much easier.
 		"regions_unexplored:silver_birch_log": "biomesoplenty:magic_log",
 		"regions_unexplored:enchanted_birch_leaves": "biomesoplenty:magic_leaves",
 
+		"regions_unexplored:ashen_log": "quark:ancient_log",
+		"regions_unexplored:ashen_leaves": "quark:ancient_leaves",
+		"regions_unexplored:ash": "biomesoplenty:black_sand",
+		"regions_unexplored:ash_vent": "biomesoplenty:black_sand",
+		"regions_unexplored:volcanic_ash": "biomesoplenty:black_sand",
+		"regions_unexplored:ashen_dirt": "biomesoplenty:mossy_black_sand",
+
 		"regions_unexplored:barley": "biomesoplenty:barley"
 	}
 }
