@@ -59,7 +59,7 @@
   "volcano_enabled": false,
   "wasteland_enabled": false,
   "wasteland_steppe_enabled": false,
-  "wetland_enabled": true,
+  "wetland_enabled": false,
   "withered_abyss_enabled": false,
   "woodland_enabled": false
 }

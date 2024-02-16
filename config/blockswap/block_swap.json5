@@ -92,8 +92,13 @@ to make editing this file much easier.
 
 		"biomesoplenty:palm_log": "regions_unexplored:palm_log",
 		"biomesoplenty:palm_leaves": "regions_unexplored:palm_leaves",
+
+		"biomesoplenty:dead_log": "regions_unexplored:dead_log",
+		"biomesoplenty:dead_leaves": "regions_unexplored:dead_leaves",
+
 		"regions_unexplored:mauve_log": "biomesoplenty:jacaranda_log",
 		"regions_unexplored:mauve_leaves": "biomesoplenty:jacaranda_leaves",
+		
 		"regions_unexplored:silver_birch_log": "biomesoplenty:magic_log",
 		"regions_unexplored:enchanted_birch_leaves": "biomesoplenty:magic_leaves",
 
@@ -103,6 +108,11 @@ to make editing this file much easier.
 		"regions_unexplored:ash_vent": "biomesoplenty:black_sand",
 		"regions_unexplored:volcanic_ash": "biomesoplenty:black_sand",
 		"regions_unexplored:ashen_dirt": "biomesoplenty:mossy_black_sand",
+		
+		"regions_unexplored:maple_log": "minecraft:spruce_log",
+		"regions_unexplored:maple_leaves": "minecraft:spruce_leaves",
+		
+		"regions_unexplored:flowering_leaves": "biomesoplenty:flowering_oak_leaves",
 
 		"regions_unexplored:barley": "biomesoplenty:barley"
 	}

@@ -1,1 +1,1 @@
-Platform.mods.kubejs.name = 'Better than Wolves'
+Platform.mods.kubejs.name = 'Dawn Mini'
