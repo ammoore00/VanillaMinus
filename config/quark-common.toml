@@ -187,8 +187,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - immersive_weathering
 		# - woodworks
+		# - immersive_weathering
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -222,8 +222,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - environmental
 		# - goated
+		# - environmental
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -326,14 +326,14 @@
 
 [tools]
 	Abacus = true
-	"Ambient Discs" = true
+	"Ambient Discs" = false
 	"Ancient Tomes" = true
 	"Beacon Redirection" = true
 	"Bottled Cloud" = false
 	"Color Runes" = true
-	"Endermosh Music Disc" = true
+	"Endermosh Music Disc" = false
 	"Parrot Eggs" = true
-	"Pathfinder Maps" = true
+	"Pathfinder Maps" = false
 	Pickarang = false
 	"Seed Pouch" = true
 	"Skull Pikes" = true
@@ -503,12 +503,12 @@
 	"Coral On Cactus" = true
 	"Diamond Repair" = true
 	"Double Door Opening" = true
-	"Dragon Scales" = true
+	"Dragon Scales" = false
 	"Dyeable Item Frames" = true
 	Emotes = true
 	"Enhanced Ladders" = true
-	"Glass Shard" = true
-	"Gold Tools Have Fortune" = false
+	"Glass Shard" = false
+	"Gold Tools Have Fortune" = true
 	"Grab Chickens" = false
 	"Hoe Harvesting" = false
 	"Horses Swim" = true
