@@ -5,6 +5,36 @@ ServerEvents.recipes(event => {
     
     event.remove({output: 'create_enchantment_industry:experience_rotor'})
 
+    event.remove({output: 'create_sa:heat_engine'})
+    event.shaped(
+        'create_sa:heat_engine',
+        [
+            ' Z ',
+            'GAG',
+            ' C '
+        ],
+        {
+            Z: 'create:zinc_nugget',
+            G: 'create:cogwheel',
+            A: 'create:andesite_alloy',
+            C: 'create:copper_nugget'
+        }
+    ).id('dawn:kinetic_mechanism')
+    event.shaped(
+        'create_sa:heat_engine',
+        [
+            ' C ',
+            'GAG',
+            ' Z '
+        ],
+        {
+            Z: 'create:zinc_nugget',
+            G: 'create:cogwheel',
+            A: 'create:andesite_alloy',
+            C: 'create:copper_nugget'
+        }
+    ).id('dawn:kinetic_mechanism_inverted')
+
     event.recipes.create.sequenced_assembly(
         [
             Item.of('create_sa:steam_engine').withChance(120),
@@ -47,6 +77,4 @@ ServerEvents.recipes(event => {
             'create:mechanical_pump'
         ]
     ).id('createaddition:rolling/straw')
-
-    event.replaceInput({output: 'create:propeller'}, 'create:iron_sheet', 'createdeco:industrial_iron_sheet')
 })

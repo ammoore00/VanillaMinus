@@ -6,5 +6,7 @@
     "item.create.netherite_backtank_placeable": "Steel Backtank Placeable",
     "item.create.netherite_diving_boots": "Steel Diving Boots",
     "item.create.netherite_diving_helmet": "Steel Diving Helmet",
-    "item.create.netherite_diving_helmet.tooltip.summary": "Together with a _Steel Backtank_, this can protect you from _extreme heat_. To be effective, _Legs and Feet_ have to be covered in _Steel_, too."
+    "item.create.netherite_diving_helmet.tooltip.summary": "Together with a _Steel Backtank_, this can protect you from _extreme heat_. To be effective, _Legs and Feet_ have to be covered in _Steel_, too.",
+    
+    "block.create.placard": "White Placard"
 }

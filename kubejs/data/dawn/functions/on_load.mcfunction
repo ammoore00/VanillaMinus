@@ -1,0 +1,4 @@
+gamerule doInsomnia false
+gamerule doPatrolSpawning false
+gamerule reducedDebugInfo true
+gamerule decorative_blocks:disable_thatch true

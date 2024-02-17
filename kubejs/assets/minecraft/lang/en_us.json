@@ -1,4 +1,9 @@
 {
+    "item.minecraft.blaze_powder": "Torchpowder",
+    "item.minecraft.blaze_rod": "Blazing Rod",
+
+    "item.minecraft.glowstone_dust": "Glowdust",
+
     "block.minecraft.netherite_block": "Block of Steel",
 
     "item.minecraft.netherite_scrap": "Ancient Scrap",
