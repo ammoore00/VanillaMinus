@@ -3,9 +3,21 @@
     "item.minecraft.blaze_rod": "Blazing Rod",
 
     "item.minecraft.glowstone_dust": "Glowdust",
+    
+    "item.minecraft.quartz": "Polished Quartz",
+    "block.minecraft.chiseled_quartz_block": "Chiseled Polished Quartz Block",
+    "block.minecraft.quartz_block": "Block of Polished Quartz",
+    "block.minecraft.quartz_bricks": "Polished Quartz Bricks",
+    "block.minecraft.quartz_pillar": "Polished Quartz Pillar",
+    "block.minecraft.quartz_slab": "Polished Quartz Slab",
+    "block.minecraft.quartz_stairs": "Polished Quartz Stairs",
+    "block.minecraft.smooth_quartz": "Smooth Polished Quartz Block",
+    "block.minecraft.smooth_quartz_slab": "Smooth Polished Quartz Slab",
+    "block.minecraft.smooth_quartz_stairs": "Smooth Polished Quartz Stairs",
+
+    "item.minecraft.amethyst_shard": "Amethyst",
 
     "block.minecraft.netherite_block": "Block of Steel",
-
     "item.minecraft.netherite_scrap": "Ancient Scrap",
     "item.minecraft.netherite_ingot": "Steel Ingot",
 

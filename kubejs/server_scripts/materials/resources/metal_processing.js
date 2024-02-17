@@ -7,11 +7,6 @@ ServerEvents.recipes(event => {
         })
     }
 
-    event.recipes.create.pressing(
-        'kubejs:deorum_sheet',
-        'forbidden_arcanus:deorum_ingot'
-    ).id('dawn:pressing/deorum_sheet')
-
     //------ Rolling ------//
 
     // Iron

@@ -1,9 +1,9 @@
 {
-    "feature": "minerdz_quartz:deepslate_quartz_ore",
+    "feature": "geore:quartz_geode",
     "placement": [
         {
-            "type": "minecraft:count",
-            "count": 16
+            "type": "minecraft:rarity_filter",
+            "chance": 32
         },
         {
             "type": "minecraft:in_square"
@@ -11,12 +11,12 @@
         {
             "type": "minecraft:height_range",
             "height": {
-                "type": "minecraft:trapezoid",
+                "type": "minecraft:uniform",
                 "max_inclusive": {
-                    "absolute": 32
+                    "absolute": 30
                 },
                 "min_inclusive": {
-                    "absolute": -64
+                    "above_bottom": 6
                 }
             }
         },

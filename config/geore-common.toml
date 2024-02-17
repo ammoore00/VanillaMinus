@@ -1,0 +1,35 @@
+
+#General settings
+[General]
+	#Generate Coal GeOre [Default: true]
+	generateCoalGeore = false
+	#Generate Copper GeOre [Default: true]
+	generateCopperGeore = false
+	#Generate Diamond GeOre [Default: true]
+	generateDiamondGeore = false
+	#Generate Emerald GeOre [Default: true]
+	generateEmeraldGeore = false
+	#Generate Gold GeOre [Default: true]
+	generateGoldGeore = false
+	#Generate Iron GeOre [Default: true]
+	generateIronGeore = false
+	#Generate Lapis GeOre [Default: true]
+	generateLapisGeore = false
+	#Generate Quartz GeOre [Default: true]
+	generateQuartzGeore = true
+	#Generate Quartz GeOre in the Nether [Default: true]
+	generateQuartzInNetherGeore = true
+	#Generate Redstone GeOre [Default: true]
+	generateRedstoneGeore = false
+
+#Modded Generation settings
+[ModdedGeneration]
+	#Generate Ruby GeOre [Default: false]
+	generateRubyGeore = false
+	#Generate Sapphire GeOre [Default: false]
+	generateSapphireGeore = false
+	#Generate Topaz GeOre [Default: false]
+	generateTopazGeore = false
+	#Generate Zinc GeOre [Default: false]
+	generateZincGeore = false
+

@@ -1,0 +1,10 @@
+{
+    "item.geore.quartz_shard": "Quartz",
+
+    "block.geore.budding_quartz": "Budding Quartz",
+    "block.geore.large_quartz_bud": "Large Quartz Bud",
+    "block.geore.medium_quartz_bud": "Medium Quartz Bud",
+    "block.geore.quartz_block": "Block Of Quartz",
+    "block.geore.quartz_cluster": "Quartz Cluster",
+    "block.geore.small_quartz_bud": "Small Quartz Bud"
+}
