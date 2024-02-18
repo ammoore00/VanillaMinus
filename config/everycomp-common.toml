@@ -88,6 +88,12 @@
 				umbran = false
 				hellbark = false
 
+			[general.types.leaves_type.biomemakeover]
+				blighted_balsa = false
+				willow = false
+				swamp_cypress = false
+				ancient_oak = true
+
 		[general.types.wood_type]
 
 			[general.types.wood_type.ecologics]
@@ -137,6 +143,12 @@
 				magic = true
 				umbran = false
 				hellbark = false
+
+			[general.types.wood_type.biomemakeover]
+				blighted_balsa = false
+				willow = false
+				swamp_cypress = false
+				ancient_oak = true
 
 		[general.types.cake]
 
