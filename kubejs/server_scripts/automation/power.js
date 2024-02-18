@@ -17,6 +17,8 @@ ServerEvents.recipes(event => {
         }
     ).id('create:crafting/kinetics/steam_engine')
 
+    event.replaceInput({output: 'create:windmill_bearing'}, 'create:shaft', 'create_sa:heat_engine')
+
     //------ Power Transmission ------//
 
     event.shapeless(
@@ -26,4 +28,6 @@ ServerEvents.recipes(event => {
             'create_sa:heat_engine'
         ]
     ).id('create:crafting/kinetics/gearbox')
+
+    event.replaceInput({output: 'create:mechanical_bearing'}, 'create:shaft', 'create_sa:heat_engine')
 })

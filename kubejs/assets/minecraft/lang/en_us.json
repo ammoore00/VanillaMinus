@@ -4,6 +4,9 @@
 
     "item.minecraft.glowstone_dust": "Glowdust",
     
+    "item.minecraft.elytra": "Glider",
+    "item.minecraft.phantom_membrane": "Reinforced Canvas",
+    
     "item.minecraft.quartz": "Polished Quartz",
     "block.minecraft.chiseled_quartz_block": "Chiseled Polished Quartz Block",
     "block.minecraft.quartz_block": "Block of Polished Quartz",

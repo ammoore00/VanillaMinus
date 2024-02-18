@@ -19,6 +19,21 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:sniffer_egg').withChance(0.25),
         'minecraft:turtle_egg'
     ).id('dawn:sniffer_egg')
+
+    event.replaceInput({output: 'farmersdelight:canvas'}, 'farmersdelight:straw', 'supplementaries:flax')
+
+    event.shaped(
+        'minecraft:phantom_membrane',
+        [
+            ' B ',
+            'BCB',
+            ' B '
+        ],
+        {
+            B: 'createaddition:brass_rod',
+            C: 'farmersdelight:canvas'
+        }
+    ).id('dawn:reinforced_canvas')
 })
 
 ServerEvents.tags('item', event => {

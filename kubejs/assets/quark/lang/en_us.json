@@ -1,0 +1,6 @@
+{
+	"item.quark.smithing_template.rune.ingredients": "Torchpowder, Dye, or Nothing",
+	"item.quark.smithing_template.rune.additions_slot_description": "Add torchpowder, dye, or leave empty",
+
+	"block.quark.blaze_lantern": "Blazing Lantern"
+}

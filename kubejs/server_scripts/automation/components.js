@@ -1,13 +1,25 @@
 ServerEvents.recipes(event => {
-    event.remove({output: 'create_sa:brass_drill_head'})
     event.remove({output: 'create_sa:fan_component'})
     event.remove({output: 'create_sa:vault_component'})
+    event.remove({input: 'create_sa:vault_component'})
     
     event.remove({output: 'create_enchantment_industry:experience_rotor'})
 
+    event.shaped(
+        'create_sa:brass_drill_head',
+        [
+            ' A ',
+            'AIA'
+        ],
+        {
+            A: 'create:andesite_alloy',
+            I: 'minecraft:iron_ingot'
+        }
+    ).id('create_sa:brass_drill_head_recipe')
+
     event.remove({output: 'create_sa:heat_engine'})
     event.shaped(
-        'create_sa:heat_engine',
+        '2x create_sa:heat_engine',
         [
             ' Z ',
             'GAG',
@@ -21,7 +33,7 @@ ServerEvents.recipes(event => {
         }
     ).id('dawn:kinetic_mechanism')
     event.shaped(
-        'create_sa:heat_engine',
+        '2x create_sa:heat_engine',
         [
             ' C ',
             'GAG',
@@ -77,4 +89,32 @@ ServerEvents.recipes(event => {
             'create:mechanical_pump'
         ]
     ).id('createaddition:rolling/straw')
+
+    event.shaped(
+        'create:electron_tube',
+        [
+            'Q',
+            'S',
+            'W'
+        ],
+        {
+            Q: 'create:polished_rose_quartz',
+            S: 'create:iron_sheet',
+            W: 'createaddition:copper_wire'
+        }
+    ).id('create:crafting/materials/electron_tube')
+
+    event.shaped(
+        'kubejs:redstone_eye',
+        [
+            'Q',
+            'S',
+            'W'
+        ],
+        {
+            Q: 'kubejs:polished_amethyst',
+            S: 'create:iron_sheet',
+            W: 'createaddition:gold_wire'
+        }
+    ).id('dawn:redstone_eye')
 })

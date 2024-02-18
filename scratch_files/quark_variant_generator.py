@@ -58,6 +58,8 @@ def main():
         "jungle":"minecraft",
         "acacia":"minecraft",
         "dark_oak":"minecraft",
+        "crimson":"minecraft",
+        "warped":"minecraft",
         "mangrove":"minecraft",
         "cherry":"minecraft",
 
@@ -91,6 +93,8 @@ def main():
     }
 
     stem_types = [
+        "crimson",
+        "warped",
         "blue_bioshroom",
         "green_biomshroom",
         "pink_bioshroom"
@@ -135,10 +139,14 @@ def main():
     generate_single_variant("fence", "minecraft:oak_log", "regions_unexplored:small_oak_log", variant_file, recipe_file)
     generate_single_variant("unique", "minecraft:stripped_oak_log", "regions_unexplored:stripped_small_oak_log", variant_file, recipe_file)
 
+    generate_single_variant("slab", "minecraft:crimson_stem", "minecraft:crimson_hyphae", variant_file, recipe_file)
+    generate_single_variant("slab", "minecraft:warped_stem", "minecraft:warped_hyphae", variant_file, recipe_file)
     generate_single_variant("slab", "regions_unexplored:blue_bioshroom_stem", "regions_unexplored:blue_bioshroom_hyphae", variant_file, recipe_file)
     generate_single_variant("slab", "regions_unexplored:green_bioshroom_stem", "regions_unexplored:green_bioshroom_hyphae", variant_file, recipe_file)
     generate_single_variant("slab", "regions_unexplored:pink_bioshroom_stem", "regions_unexplored:pink_bioshroom_hyphae", variant_file, recipe_file)
 
+    generate_single_variant("slab", "minecraft:stripped_crimson_stem", "minecraft:stripped_crimson_hyphae", variant_file, recipe_file)
+    generate_single_variant("slab", "minecraft:stripped_warped_stem", "minecraft:stripped_warped_hyphae", variant_file, recipe_file)
     generate_single_variant("slab", "regions_unexplored:stripped_blue_bioshroom_stem", "regions_unexplored:stripped_blue_bioshroom_hyphae", variant_file, recipe_file)
     generate_single_variant("slab", "regions_unexplored:stripped_green_bioshroom_stem", "regions_unexplored:stripped_green_bioshroom_hyphae", variant_file, recipe_file)
     generate_single_variant("slab", "regions_unexplored:stripped_pink_bioshroom_stem", "regions_unexplored:stripped_pink_bioshroom_hyphae", variant_file, recipe_file)

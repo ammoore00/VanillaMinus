@@ -76,4 +76,8 @@ ServerEvents.recipes(event => {
     event.remove({output: 'create_sa:small_fueling_tank'})
     event.remove({output: 'create_sa:medium_fueling_tank'})
     event.remove({output: 'create_sa:large_fueling_tank'})
+    
+    event.remove({output: 'minecraft:warped_fungus_on_a_stick'})
+    
+    event.remove({output: 'geore:quartz_spyglass'})
 })

@@ -1,7 +1,11 @@
 StartupEvents.registry('item', event => {
     event.create('adamantine_ingot');
+
     event.create('blazing_ingot');
     event.create('blazing_sheet');
+    
+    event.create('polished_amethyst');
+    event.create('redstone_eye');
 
     let createSmithingUpgrade = (id, name, applies, ingredients) => {
         event.create(id)

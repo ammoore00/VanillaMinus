@@ -7,18 +7,14 @@ ServerEvents.recipes(event => {
         })
     }
 
-    //------ Rolling ------//
+    event.remove({output: 'create:industrial_iron_block', mod: 'create'})
 
     // Iron
+    event.remove({output: 'createaddition:iron_wire'})
     rolling(
         '2x createaddition:iron_rod',
         '#forge:plates/iron'
     ).id('createaddition:rolling/iron_ingot')
-
-    rolling(
-        'createaddition:iron_wire',
-        'createaddition:iron_rod'
-    ).id('createaddition:rolling/iron_plate')
 
     // Gold
     rolling(
@@ -49,24 +45,13 @@ ServerEvents.recipes(event => {
     ).id('createaddition:rolling/brass_ingot')
 
     // Electrum
-    rolling(
-        '2x createaddition:electrum_rod',
-        '#forge:plates/electrum'
-    ).id('createaddition:rolling/electrum_ingot')
-
-    rolling(
-        'createaddition:electrum_wire',
-        'createaddition:electrum_rod'
-    ).id('createaddition:rolling/electrum_plate')
+    event.remove({output: 'createaddition:electrum_wire'})
+    event.remove({output: 'createaddition:electrum_rod'})
 
     // Zinc
-    rolling(
-        '2x create_sa:zinc_handle',
-        '#forge:plates/zinc'
-    ).id('create_sa:zinc_handle_recipe')
+    event.remove({output: 'create_sa:zinc_handle'})
+    event.remove({output: 'createaddition:zinc_sheet'})
 })
 
 ServerEvents.tags('item', event => {
-    event.add('forge:rods/all_metal', 'create_sa:zinc_handle')
-    event.add('forge:rods/zinc', 'create_sa:zinc_handle')
 })
