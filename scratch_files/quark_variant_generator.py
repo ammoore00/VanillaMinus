@@ -90,6 +90,8 @@ def main():
         "walnut":"ecologics",
         "azalea":"ecologics",
         "flowering_azalea":"ecologics",
+
+        "biomemakeover":"ancient_oak"
     }
 
     stem_types = [
@@ -205,6 +207,8 @@ def main():
         
         "coconut":"ecologics",
         "walnut":"ecologics",
+
+        "biomemakeover":"ancient_oak"
     }
 
     leaf_variants = {

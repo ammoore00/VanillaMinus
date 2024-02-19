@@ -111,6 +111,7 @@ to make editing this file much easier.
 		
 		"regions_unexplored:maple_log": "minecraft:spruce_log",
 		"regions_unexplored:maple_leaves": "minecraft:spruce_leaves",
+		"regions_unexplored:maple_branch": "regions_unexplored:spruce_branch",
 		
 		"regions_unexplored:flowering_leaves": "biomesoplenty:flowering_oak_leaves",
 		"regions_unexplored:flowering_lily_pad": "biomemakeover:water_lily",
@@ -118,6 +119,8 @@ to make editing this file much easier.
 		"regions_unexplored:barley": "biomesoplenty:barley",
 
 		"biomemakeover:altar":"minecraft:enchanting_table",
-		"biomemakeover:ivy":"immersive_weathering:ivy"
+		"immersive_weathering:ivy":"biomemakeover:ivy",
+		"biomemakeover:itching_ivy":"minecraft:air",
+		"biomemakeover:moth_blossom":"minecraft:air"
 	}
 }

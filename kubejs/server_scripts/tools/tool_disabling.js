@@ -1,9 +1,6 @@
 ServerEvents.recipes(event => {
     event.remove({output: 'minecraft:wooden_hoe'})
     event.remove({output: 'minecraft:wooden_sword'})
-    
-    event.remove({output: 'minecraft:stone_hoe'})
-    event.remove({output: 'minecraft:stone_sword'})
 
     event.remove({output: 'create_sa:zinc_helmet'})
     event.remove({output: 'create_sa:zinc_chestplate'})
