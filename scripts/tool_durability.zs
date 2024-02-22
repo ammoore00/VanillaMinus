@@ -1,6 +1,7 @@
 var wood = 8;
 var stone = 128;
 var iron = 512;
+var brass = 1024;
 var diamond = 2048;
 var netherite = 3072;
 
@@ -21,6 +22,12 @@ var netherite = 3072;
 <item:minecraft:iron_pickaxe>.maxDamage = iron;
 <item:minecraft:iron_axe>.maxDamage = iron;
 <item:minecraft:iron_hoe>.maxDamage = iron;
+
+<item:create_sa:brass_sword>.maxDamage = brass;
+<item:create_sa:brass_shovel>.maxDamage = brass;
+<item:create_sa:brass_pickaxe>.maxDamage = brass;
+<item:create_sa:brass_axe>.maxDamage = brass;
+<item:create_sa:brass_hoe>.maxDamage = brass;
 
 <item:minecraft:diamond_sword>.maxDamage = diamond;
 <item:minecraft:diamond_shovel>.maxDamage = diamond;

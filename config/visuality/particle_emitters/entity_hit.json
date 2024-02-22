@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "min_amount": 1,
   "max_amount": 20,
   "entries": [

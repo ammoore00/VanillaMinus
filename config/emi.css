@@ -4,7 +4,7 @@
 	/**
 	 * Whether EMI is enabled and visible.
 	 */
-	enabled: false;
+	enabled: true;
 
 	/**
 	 * Whether cheating in items is enabled.
@@ -447,7 +447,7 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: true;
+	show-recipe-ids: false;
 
 	/**
 	 * Whether stacks in the index should display a highlight if they have a recipe

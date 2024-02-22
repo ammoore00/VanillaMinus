@@ -91,7 +91,7 @@ def main():
         "azalea":"ecologics",
         "flowering_azalea":"ecologics",
 
-        "biomemakeover":"ancient_oak"
+        "ancient_oak":"biomemakeover"
     }
 
     stem_types = [
@@ -103,19 +103,17 @@ def main():
     ]
 
     log_variants = {
-        tuple(["","wood","slab"]):tuple(["minecraft"]),
-        tuple(["","post","stairs"]):tuple(["quark", "everycomp", "q"]),
+        tuple(["","wood","unique"]):tuple(["minecraft"]),
+        tuple(["","post","unique2"]):tuple(["quark", "everycomp", "q"]),
     }
 
     stripped_log_variants = {
-        tuple(["stripped","wood","slab"]):tuple(["minecraft"]),
-        tuple(["","beam","stairs"]):tuple(["decorative_blocks", "everycomp", "db"]),
+        tuple(["stripped","wood","unique"]):tuple(["minecraft"]),
         tuple(["","palisade","fence"]):tuple(["decorative_blocks", "everycomp", "db"]),
-        tuple(["stripped","post","pillar"]):tuple(["quark", "everycomp", "q"]),
+        tuple(["stripped","post","unique2"]):tuple(["quark", "everycomp", "q"]),
     }
 
     plank_variants = {
-        tuple(["vertical","planks","pillar"]):tuple(["quark", "everycomp", "q"])
     }
 
     for wood, wood_mod in wood_types.items():
@@ -138,20 +136,20 @@ def main():
         generate_variants(plank_block, wood_mod, wood, plank_variants, variant_file, recipe_file)
     
     # One-offs
-    generate_single_variant("fence", "minecraft:oak_log", "regions_unexplored:small_oak_log", variant_file, recipe_file)
-    generate_single_variant("unique", "minecraft:stripped_oak_log", "regions_unexplored:stripped_small_oak_log", variant_file, recipe_file)
+    generate_single_variant("stairs", "minecraft:oak_log", "regions_unexplored:small_oak_log", variant_file, recipe_file)
+    generate_single_variant("stairs", "minecraft:stripped_oak_log", "regions_unexplored:stripped_small_oak_log", variant_file, recipe_file)
 
-    generate_single_variant("slab", "minecraft:crimson_stem", "minecraft:crimson_hyphae", variant_file, recipe_file)
-    generate_single_variant("slab", "minecraft:warped_stem", "minecraft:warped_hyphae", variant_file, recipe_file)
-    generate_single_variant("slab", "regions_unexplored:blue_bioshroom_stem", "regions_unexplored:blue_bioshroom_hyphae", variant_file, recipe_file)
-    generate_single_variant("slab", "regions_unexplored:green_bioshroom_stem", "regions_unexplored:green_bioshroom_hyphae", variant_file, recipe_file)
-    generate_single_variant("slab", "regions_unexplored:pink_bioshroom_stem", "regions_unexplored:pink_bioshroom_hyphae", variant_file, recipe_file)
+    generate_single_variant("unique", "minecraft:crimson_stem", "minecraft:crimson_hyphae", variant_file, recipe_file)
+    generate_single_variant("unique", "minecraft:warped_stem", "minecraft:warped_hyphae", variant_file, recipe_file)
+    generate_single_variant("unique", "regions_unexplored:blue_bioshroom_stem", "regions_unexplored:blue_bioshroom_hyphae", variant_file, recipe_file)
+    generate_single_variant("unique", "regions_unexplored:green_bioshroom_stem", "regions_unexplored:green_bioshroom_hyphae", variant_file, recipe_file)
+    generate_single_variant("unique", "regions_unexplored:pink_bioshroom_stem", "regions_unexplored:pink_bioshroom_hyphae", variant_file, recipe_file)
 
-    generate_single_variant("slab", "minecraft:stripped_crimson_stem", "minecraft:stripped_crimson_hyphae", variant_file, recipe_file)
-    generate_single_variant("slab", "minecraft:stripped_warped_stem", "minecraft:stripped_warped_hyphae", variant_file, recipe_file)
-    generate_single_variant("slab", "regions_unexplored:stripped_blue_bioshroom_stem", "regions_unexplored:stripped_blue_bioshroom_hyphae", variant_file, recipe_file)
-    generate_single_variant("slab", "regions_unexplored:stripped_green_bioshroom_stem", "regions_unexplored:stripped_green_bioshroom_hyphae", variant_file, recipe_file)
-    generate_single_variant("slab", "regions_unexplored:stripped_pink_bioshroom_stem", "regions_unexplored:stripped_pink_bioshroom_hyphae", variant_file, recipe_file)
+    generate_single_variant("unique", "minecraft:stripped_crimson_stem", "minecraft:stripped_crimson_hyphae", variant_file, recipe_file)
+    generate_single_variant("unique", "minecraft:stripped_warped_stem", "minecraft:stripped_warped_hyphae", variant_file, recipe_file)
+    generate_single_variant("unique", "regions_unexplored:stripped_blue_bioshroom_stem", "regions_unexplored:stripped_blue_bioshroom_hyphae", variant_file, recipe_file)
+    generate_single_variant("unique", "regions_unexplored:stripped_green_bioshroom_stem", "regions_unexplored:stripped_green_bioshroom_hyphae", variant_file, recipe_file)
+    generate_single_variant("unique", "regions_unexplored:stripped_pink_bioshroom_stem", "regions_unexplored:stripped_pink_bioshroom_hyphae", variant_file, recipe_file)
 
     #=============================#
     # ------ Leaf Variants ------ #
@@ -208,7 +206,7 @@ def main():
         "coconut":"ecologics",
         "walnut":"ecologics",
 
-        "biomemakeover":"ancient_oak"
+        "ancient_oak":"biomemakeover"
     }
 
     leaf_variants = {
@@ -247,22 +245,16 @@ def main():
     # ------ Misc Variants ------ #
     #=============================#
     
-    generate_single_variant("fence", "supplementaries:daub_frame", "supplementaries:daub_brace", variant_file, recipe_file)
-    generate_single_variant("pillar", "supplementaries:daub_frame", "supplementaries:daub_cross_brace", variant_file, recipe_file)
+    generate_single_variant("unique", "supplementaries:daub_frame", "supplementaries:daub_brace", variant_file, recipe_file)
+    generate_single_variant("unique2", "supplementaries:daub_frame", "supplementaries:daub_cross_brace", variant_file, recipe_file)
     
-    generate_single_variant("slab", "supplementaries:timber_frame", "supplementaries:timber_brace", variant_file, recipe_file)
-    generate_single_variant("stairs", "supplementaries:timber_frame", "supplementaries:timber_cross_brace", variant_file, recipe_file)
+    generate_single_variant("unique", "supplementaries:timber_frame", "supplementaries:timber_brace", variant_file, recipe_file)
+    generate_single_variant("unique2", "supplementaries:timber_frame", "supplementaries:timber_cross_brace", variant_file, recipe_file)
     
-    generate_single_variant("slab", "suppsquared:metal_frame", "suppsquared:metal_brace", variant_file, recipe_file)
-    generate_single_variant("stairs", "suppsquared:metal_frame", "suppsquared:metal_cross_brace", variant_file, recipe_file)
+    generate_single_variant("unique", "suppsquared:metal_frame", "suppsquared:metal_brace", variant_file, recipe_file)
+    generate_single_variant("unique2", "suppsquared:metal_frame", "suppsquared:metal_cross_brace", variant_file, recipe_file)
     
-    generate_single_variant("slab", "minecraft:iron_bars", "supplementaries:iron_gate", variant_file, recipe_file)
-    
-    #generate_single_variant("slab", "minecraft:rail", "little_logistics:switch_rail", variant_file, recipe_file)
-    #generate_single_variant("stairs", "minecraft:rail", "little_logistics:tee_junction_rail", variant_file, recipe_file)
-    #generate_single_variant("fence", "minecraft:rail", "little_logistics:junction_rail", variant_file, recipe_file)
-    
-    #generate_single_variant("slab", "little_logistics:automatic_switch_rail", "little_logistics:automatic_tee_junction_rail", variant_file, recipe_file)
+    generate_single_variant("unique", "minecraft:iron_bars", "supplementaries:iron_gate", variant_file, recipe_file)
 
     recipe_file.write("\tevent.remove({output: '/.*stairs.*/'})\n")
     recipe_file.write("\tevent.remove({output: '/.*slab.*/'})\n")
@@ -270,7 +262,7 @@ def main():
     recipe_file.write("\tevent.remove({output: '/.*:(?!paper_).*wall.*/'})\n")
     recipe_file.write("\tevent.remove({output: '/.*fence_gate.*/'})\n")
     recipe_file.write("\tevent.remove({output: '/.*carpet.*/'})\n")
-    recipe_file.write("\tevent.remove({output: '/.*pane.*/'})\n")
+    recipe_file.write("\tevent.remove({output: '/.*pane$/'})\n")
     recipe_file.write("\tevent.remove({output: '/.*railing.*/'})\n")
 
     variant_file.write("]\n")

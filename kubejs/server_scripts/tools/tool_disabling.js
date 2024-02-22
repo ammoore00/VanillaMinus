@@ -22,16 +22,6 @@ ServerEvents.recipes(event => {
     event.remove({output: 'create_sa:copper_sword'})
     event.remove({output: 'create_sa:copper_hoe'})
 
-    event.remove({output: 'create_sa:brass_helmet'})
-    event.remove({output: 'create_sa:brass_chestplate'})
-    event.remove({output: 'create_sa:brass_leggings'})
-    event.remove({output: 'create_sa:brass_boots'})
-    event.remove({output: 'create_sa:brass_pickaxe'})
-    event.remove({output: 'create_sa:brass_shovel'})
-    event.remove({output: 'create_sa:brass_axe'})
-    event.remove({output: 'create_sa:brass_sword'})
-    event.remove({output: 'create_sa:brass_hoe'})
-
     event.remove({output: 'create_sa:experience_pickaxe'})
     event.remove({output: 'create_sa:experience_shovel'})
     event.remove({output: 'create_sa:experience_axe'})

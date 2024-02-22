@@ -68,4 +68,20 @@ ServerEvents.recipes(event => {
     ).id('minecraft:map')
 
     event.replaceInput({output: 'minecraft:lodestone'}, 'minecraft:netherite_ingot', 'minecraft:iron_ingot')
+
+    event.shaped(
+        'minecraft:shield',
+        [
+            'WIW',
+            'WSW',
+            'WIW'
+        ],
+        {
+            W: '#minecraft:planks',
+            I: 'create:iron_sheet',
+            S: '#forge:rods/wooden'
+        }
+    ).id('minecraft:shield')
+
+    event.replaceInput({output: 'shieldexp:diamond_shield'}, "minecraft:diamond", "kubejs:adamantine_ingot")
 })

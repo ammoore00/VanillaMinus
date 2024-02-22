@@ -1,0 +1,18 @@
+{
+    "replace": true,
+    "values": [
+        "biomesoplenty:coniferous_forest",
+        "biomesoplenty:fir_clearing",
+        "biomesoplenty:forested_field",
+        "minecraft:grove",
+        "biomesoplenty:jade_cliffs",
+        "minecraft:old_growth_pine_taiga",
+        "biomesoplenty:ominous_woods",
+        "regions_unexplored:redwoods",
+        "biomesoplenty:snowy_coniferous_forest",
+        "biomesoplenty:snowy_fir_clearing",
+        "minecraft:snowy_taiga",
+        "regions_unexplored:sparse_redwoods",
+        "minecraft:taiga"
+    ]
+}
