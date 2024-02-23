@@ -1,6 +1,7 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:magma_block",
     "item:create_sa:brass_axe{Damage:0}",
     "item:create_sa:brass_pickaxe{Damage:0}",
     "item:create_sa:brass_boots{Damage:0}",
@@ -60,7 +61,6 @@
     "item:biomemakeover:red_mushroom_brick",
     "item:biomemakeover:swamp_cypress_wood",
     "item:biomemakeover:stunt_powder",
-    "item:minecraft:magma_block",
     "item:minecraft:quartz",
     "item:geore:quartz_shard",
     "item:minecraft:blaze_powder",

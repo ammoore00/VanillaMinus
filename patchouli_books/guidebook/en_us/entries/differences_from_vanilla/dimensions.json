@@ -24,7 +24,8 @@
             "text": "Netherrack",
             "input": "minecraft:magma_block",
             "machine": "create:millstone",
-            "output": "create:cinder_flour"
+            "output": "create:cinder_flour",
+            "chance": "100% Chance"
         }
     ]
 }

@@ -40,22 +40,18 @@
             "texture_height": 16,
             "x": 66,
             "y": 9
-        },
+        }
+    ],
+    "include": [
         {
-            "type": "patchouli:item",
-            "framed": true,
-            "item": "#output",
+            "template": "patchouli:items/item_with_lore",
+            "as": "output",
             "x": 85,
-            "y": 8,
-            "guard": "#chance->exists->inv"
-        },
-        {
-            "type": "patchouli:item",
-            "framed": true,
-            "item": "#output#{display:{Lore:[\\'[{'text':'#chance#% Chance'}]\\']}}",
-            "x": 85,
-            "y": 8,
-            "guard": "#chance->exists"
+            "y": 9,
+            "using": {
+                "item": "#output",
+                "lore": "#chance"
+            }
         }
     ]
 }
