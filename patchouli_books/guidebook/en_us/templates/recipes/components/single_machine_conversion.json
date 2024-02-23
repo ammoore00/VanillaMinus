@@ -1,0 +1,61 @@
+{
+    "components": [
+        {
+            "type": "patchouli:header",
+            "text": "#text",
+            "centered": true,
+            "x": -1,
+            "y": -6
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#input",
+            "x": 15,
+            "y": 8
+        },
+        {
+            "type": "patchouli:image",
+            "image": "kubejs:textures/gui/patchouli_icons/arrow.png",
+            "width": 16,
+            "height": 16,
+            "texture_width": 16,
+            "texture_height": 16,
+            "x": 35,
+            "y": 9
+        },
+        {
+            "type": "patchouli:item",
+            "framed": false,
+            "item": "#machine",
+            "x": 50,
+            "y": 8
+        },
+        {
+            "type": "patchouli:image",
+            "image": "kubejs:textures/gui/patchouli_icons/arrow.png",
+            "width": 16,
+            "height": 16,
+            "texture_width": 16,
+            "texture_height": 16,
+            "x": 66,
+            "y": 9
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#output",
+            "x": 85,
+            "y": 8,
+            "guard": "#chance->exists->inv"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#output#{display:{Lore:[\\'[{'text':'#chance#% Chance'}]\\']}}",
+            "x": 85,
+            "y": 8,
+            "guard": "#chance->exists"
+        }
+    ]
+}

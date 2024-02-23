@@ -1,0 +1,14 @@
+{
+    "name": "Guidebook",
+    "landing_text": "Everything you need to get started!",
+    "version": 1,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "use_resource_pack": false,
+    "model": "kubejs:guidebook",
+    "show_progress": false,
+    "macros": {
+        "$(concept)": "$(#490)",
+        "$(structure)": "$(6)",
+        "$(entity)": "$(2)"
+    }
+}

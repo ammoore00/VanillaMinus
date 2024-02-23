@@ -1,0 +1,20 @@
+{
+    "components": [
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#item",
+            "x": 85,
+            "y": 8,
+            "guard": "#lore->exists->inv"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#item#{display:{Lore:[\\'[{'text':'#lore#'}]\\']}}",
+            "x": 85,
+            "y": 8,
+            "guard": "#lore->exists"
+        }
+    ]
+}

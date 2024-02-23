@@ -1,0 +1,30 @@
+{
+    "name": "Dimensions",
+    "category": "patchouli:differences_from_vanilla",
+    "icon": "biomesoplenty:bop_icon",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Dimensions",
+            "item": "biomesoplenty:bop_icon",
+            "text": "$(concept)The Nether/$ and $(concept)The End/$ have been removed. $(concept)Nether Portals/$ will do nothing, and $(structure)Strongholds/$ and $(structure)Ruined Nether Portals/$ will not spawn. Many resources found in these dimensions can be obtained in other ways."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:ender_eye",
+            "text": "$(item)Eyes of Ender/$ will locate $(structure)Ancient Cities/$ instead of $(structure)Strongholds/$"
+        },
+        {
+            "type": "patchouli:smelting",
+            "recipe": "minecraft:glass",
+            "text": "Test"
+        },
+        {
+            "type": "patchouli:recipes/components/single_machine_conversion",
+            "text": "Netherrack",
+            "input": "minecraft:magma_block",
+            "machine": "create:millstone",
+            "output": "create:cinder_flour"
+        }
+    ]
+}
