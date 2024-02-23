@@ -20,12 +20,13 @@
             "text": "Test"
         },
         {
-            "type": "patchouli:recipes/components/single_machine_conversion",
+            "type": "patchouli:recipes/components/single_machine_recipe_dual_output",
             "text": "Netherrack",
             "input": "minecraft:magma_block",
             "machine": "create:millstone",
             "output": "create:cinder_flour",
-            "chance": "100% Chance"
+            "output2": "minecraft:soul_sand",
+            "chance2": "5% Chance"
         }
     ]
 }

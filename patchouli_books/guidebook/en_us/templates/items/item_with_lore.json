@@ -4,12 +4,18 @@
             "type": "patchouli:item",
             "framed": true,
             "item": "#item",
+            "guard": "#hide_frame->exists->inv"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": false,
+            "item": "#item",
             "guard": "#lore->exists->inv"
         },
         {
             "type": "patchouli:item",
-            "framed": true,
-            "item": "#item#{display:{Lore:[\\'[{'text':'#lore# '}]\\']}}",
+            "framed": false,
+            "item": "#item#{display:{Lore:[\\'[{'text':'#lore# ', 'color':'gold', 'italic':'false'}]\\']}}",
             "guard": "#lore->exists"
         }
     ]
