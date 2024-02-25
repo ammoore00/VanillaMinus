@@ -9,7 +9,7 @@
     ],
     "include": [
         {
-            "template": "patchouli:recipes/components/triple_machine_recipe",
+            "template": "patchouli:recipes/components/quadruple_machine_recipe",
             "as": "recipe"
         }
     ]

@@ -1,0 +1,97 @@
+{
+    "name": "Nether Materials",
+    "category": "patchouli:vanilla_differences",
+    "icon": "minecraft:blaze_rod",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:recipes/recipe_pages/single_machine_with_text",
+            "recipe.input": "minecraft:torchflower",
+            "recipe.machine": "create:millstone",
+            "recipe.output": "minecraft:blaze_powder",
+            
+            "text": "$(item)Blaze Powder/$ is now called $(item)Torchpowder/$, and can be obtained by milling $(item)Torchflowers/$, which are dug up by $(entity)Sniffers/$."
+        },
+        {
+            "type": "patchouli:recipes/recipe_pages/double_machine_with_text",
+            "recipe.input": "minecraft:turtle_egg",
+            "recipe.machine": "create:encased_fan",
+            "recipe.machine2": "minecraft:soul_campfire",
+            "recipe.output": "minecraft:sniffer_egg",
+            
+            "text": "$(item)Sniffer Eggs/$, in addition to being found within $(structure)Warm Ocean Ruins/$, can be obtained by $(concept)Haunting/$ $(item)Turtle Eggs/$. Unlike vanilla, $(item)Turtle Eggs/$ do not require $(concept)Silk Touch/$ to obtain."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:blaze_rod",
+            "text": "$(item)Torchpowder/$ can be $(concept)Compacted/$ to form $(item)Blazing Ingots/$. The ingots can then be $(concept)Pressed/$ to form $(item)Blazing Sheets/$, and then $(concept)Rolled/$ into $(item)Blazing Rods/$."
+        },
+        {
+            "type": "patchouli:recipes/recipe_pages/multi_recipe_pages/double_double_single",
+            "first.input": "minecraft:blaze_powder#9",
+            "first.machine": "create:mechanical_press",
+            "first.machine2": "create:basin",
+            "first.output": "kubejs:blazing_ingot",
+            
+            "second.input": "kubejs:blazing_ingot",
+            "second.machine": "create:mechanical_press",
+            "second.machine2": "create:depot",
+            "second.output": "kubejs:blazing_sheet",
+            
+            "third.input": "kubejs:blazing_sheet",
+            "third.machine": "createaddition:rolling_mill",
+            "third.output": "minecraft:blaze_rod"
+        },
+        {
+            "type": "patchouli:recipes/recipe_pages/single_machine_with_text",
+            "recipe.input": "minecraft:magma_block",
+            "recipe.machine": "create:millstone",
+            "recipe.output": "create:cinder_flour",
+            "recipe.output2": "minecraft:soul_sand{display:{Lore:[\\'[{'text':\"5% chance\", 'color':'gold', 'italic':'false'}]\\']}}",
+            
+            "text": "$(item)Magma Blocks/$ can be found commonly within the deepest layers of $(concept)Caves/$. Mill it to create $(item)Cinder Flour/$, and a small chance of $(item)Soul Sand/$.\n\n$(item)Crushing Wheels/$ can be used in place of the $(item)Millstone/$ for higher efficiency."
+        },
+        {
+            "type": "patchouli:recipes/recipe_pages/multi_recipe_pages/double_single_text",
+            "first.input": "create:cinder_flour#4",
+            "first.machine": "create:mechanical_press",
+            "first.machine2": "create:basin",
+            "first.output": "minecraft:netherrack",
+            
+            "second.input": "create:cinder_flour",
+            "second.machine": "minecraft:furnace",
+            "second.output": "minecraft:nether_brick",
+            
+            "text": "$(item)Cinder Flour/$ can then be $(concept)Compacted/$ to form $(item)Netherrack/$, or $(concept)Smelted/$ into $(item)Nether Bricks/$."
+        },
+        {
+            "type": "patchouli:recipes/recipe_pages/multi_recipe_pages/double_double_text",
+            "first.input": "minecraft:red_mushroom",
+            "first.machine": "create:encased_fan",
+            "first.machine2": "minecraft:soul_campfire",
+            "first.output": "minecraft:crimson_fungus",
+            
+            "second.input": "minecraft:brown_mushroom",
+            "second.machine": "create:encased_fan",
+            "second.machine2": "minecraft:soul_campfire",
+            "second.output": "minecraft:warped_fungus",
+
+            "text": "$(item)Warped/$ and $(item)Crimson Fungi/$ can be created by $(concept)Haunting/$ normal mushrooms, and $(item)Nylium/$ can be created by combining the fungi with $(item)Netherrack/$."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "dawn:crimson_nylium",
+            "recipe2": "dawn:warped_nylium"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:netherite_scrap"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "geore:quartz_shard",
+            "text": "$(item)Quartz/$ can be found in $(structure)Geodes/$ deep in the ground. Just like $(item)Amethyst/$, it grows slowly from $(item)Budding Quartz/$ blocks, which cannot be moved or picked up in any way.",
+            "link_recipe": true
+        }
+    ]
+}

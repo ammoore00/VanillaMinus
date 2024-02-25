@@ -1,0 +1,21 @@
+{
+    "components": [
+        {
+            "type": "patchouli:text",
+            "text": "#text",
+            "x": "0",
+            "y": "104"
+        }
+    ],
+    "include": [
+        {
+            "template": "patchouli:recipes/components/double_machine_recipe",
+            "as": "first"
+        },
+        {
+            "template": "patchouli:recipes/components/double_machine_recipe",
+            "as": "second",
+            "y": "56"
+        }
+    ]
+}

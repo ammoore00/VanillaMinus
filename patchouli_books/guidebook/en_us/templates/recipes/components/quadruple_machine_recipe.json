@@ -1,0 +1,124 @@
+{
+    "components": [
+        {
+            "type": "patchouli:header",
+            "text": "#output->iname",
+            "centered": true,
+            "x": -1,
+            "y": -6
+        },
+
+
+
+        {
+            "type": "patchouli:item",
+            "item": "#machine",
+            "x": 50,
+            "y": 8
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#machine2",
+            "x": 50,
+            "y": 28
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#machine3",
+            "x": 40,
+            "y": 48
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#machine4",
+            "x": 60,
+            "y": 48
+        },
+        {
+            "type": "patchouli:image",
+            "image": "patchouli:textures/gui/crafting.png",
+            "x": 35,
+            "y": 24,
+            "width": 48,
+            "height": 24,
+            "u": 35,
+            "v": 71,
+            "texture_width": 128,
+            "texture_height": 256
+        },
+
+
+
+        {
+            "type": "patchouli:item",
+            "framed": "true",
+            "item": "#input",
+            "x": 15,
+            "y": 16,
+            "guard": "#input2##output2#->exists->inv"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#output",
+            "link_recipe": "true",
+            "x": 85,
+            "y": 16,
+            "guard": "#input2->exists->inv"
+        },
+
+
+
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#input",
+            "x": 15,
+            "y": 28,
+            "guard": "#output2->exists##input2#"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#input",
+            "x": 15,
+            "y": 16,
+            "guard": "#input2->exists"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#input2",
+            "x": 15,
+            "y": 40,
+            "guard": "#input2->exists"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#output",
+            "link_recipe": "true",
+            "x": 85,
+            "y": 16,
+            "guard": "#output2->exists"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#output2",
+            "link_recipe": "true",
+            "x": 85,
+            "y": 40,
+            "guard": "#input2##output2#->exists"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#output",
+            "link_recipe": "true",
+            "x": 85,
+            "y": 28,
+            "guard": "#input2->exists##output2#"
+        }
+    ]
+}

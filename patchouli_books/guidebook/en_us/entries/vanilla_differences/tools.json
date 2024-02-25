@@ -1,0 +1,48 @@
+{
+    "name": "Tool Changes",
+    "category": "patchouli:vanilla_differences",
+    "icon": "minecraft:netherite_pickaxe",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:iron_pickaxe",
+            "title": "Durability",
+            "text": "Tool durabilities have been modified from their vanilla values. $(item)Wooden/$ and $(item)Stone/$ tools have reduced durability, while all other tools have increased durability."
+        },
+        {
+            "type": "patchouli:recipes/recipe_pages/triple_machine_with_text",
+            "recipe.input": "minecraft:copper_ingot",
+            "recipe.input2": "create:zinc_ingot",
+            "recipe.machine": "create:mechanical_mixer",
+            "recipe.machine2": "create:basin",
+            "recipe.machine3": "create:blaze_burner",
+            "recipe.output": "create:brass_ingot",
+
+            "text": "Because $(item)Diamond Tools/$ (now called $(item)Adamantine/$) are available later than in vanilla, an additional tier of $(item)Brass tools/$ has been added between $(item)Iron/$ and $(item)Diamond/$ (now called $(item)Adamantine/$)."
+        },
+        {
+            "type": "patchouli:recipes/recipe_pages/triple_machine_with_text",
+            "recipe.input": "minecraft:iron_ingot",
+            "recipe.input2": "createaddition:diamond_grit",
+            "recipe.machine": "create:mechanical_mixer",
+            "recipe.machine2": "create:basin",
+            "recipe.machine3": "create:blaze_burner",
+            "recipe.output": "kubejs:adamantine_ingot",
+
+            "text": "$(item)Diamond Tools/$ are now made from $(item)Adamantine Ingots/$, which requires $(concept)Crushing/$ the $(item)Diamonds/$ to be combined with $(item)Iron Ingots/$."
+        },
+        {
+            "type": "patchouli:recipes/recipe_pages/quadruple_machine_with_text",
+            "recipe.input": "minecraft:netherite_scrap",
+            "recipe.input2": "minecraft:iron_ingot",
+            "recipe.machine": "create:mechanical_mixer",
+            "recipe.machine2": "create:basin",
+            "recipe.machine3": "create:blaze_burner",
+            "recipe.machine4": "create:blaze_cake",
+            "recipe.output": "minecraft:netherite_ingot",
+
+            "text": "$(item)Netherite/$, now known as $(item)Steel/$, can be made in a $(concept)Superheated Mixer/$ by combining $(item)Ancient Scrap/$ with $(item)Iron/$."
+        }
+    ]
+}
