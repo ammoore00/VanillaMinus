@@ -123,6 +123,8 @@ to make editing this file much easier.
 		"biomemakeover:itching_ivy":"minecraft:air",
 		"biomemakeover:moth_blossom":"minecraft:air",
 
-		"immersive_weathering:rooted_grass_block":"minecraft:rooted_dirt"
+		"immersive_weathering:rooted_grass_block":"minecraft:rooted_dirt",
+
+		"minecraft:reinforced_deepslate": "minecraft:ancient_debris"
 	}
 }
