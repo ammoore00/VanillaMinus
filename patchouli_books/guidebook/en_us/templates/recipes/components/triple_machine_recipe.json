@@ -14,19 +14,25 @@
             "type": "patchouli:item",
             "item": "#machine",
             "x": 50,
-            "y": 10
+            "y": 8
         },
         {
             "type": "patchouli:item",
             "item": "#machine2",
             "x": 50,
-            "y": 30
+            "y": 28
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#machine3",
+            "x": 50,
+            "y": 48
         },
         {
             "type": "patchouli:image",
             "image": "patchouli:textures/gui/crafting.png",
             "x": 35,
-            "y": 16,
+            "y": 24,
             "width": 48,
             "height": 24,
             "u": 35,
@@ -42,7 +48,7 @@
             "framed": "true",
             "item": "#input",
             "x": 15,
-            "y": 8,
+            "y": 16,
             "guard": "#input2##output2#->exists->inv"
         },
         {
@@ -51,7 +57,7 @@
             "item": "#output",
             "link_recipe": "true",
             "x": 85,
-            "y": 8,
+            "y": 16,
             "guard": "#input2->exists->inv"
         },
 
@@ -62,7 +68,7 @@
             "framed": true,
             "item": "#input",
             "x": 15,
-            "y": 20,
+            "y": 28,
             "guard": "#output2->exists##input2#"
         },
         {
@@ -70,7 +76,7 @@
             "framed": true,
             "item": "#input",
             "x": 15,
-            "y": 8,
+            "y": 16,
             "guard": "#input2->exists"
         },
         {
@@ -78,7 +84,7 @@
             "framed": true,
             "item": "#input2",
             "x": 15,
-            "y": 32,
+            "y": 40,
             "guard": "#input2->exists"
         },
         {
@@ -87,7 +93,7 @@
             "item": "#output",
             "link_recipe": "true",
             "x": 85,
-            "y": 8,
+            "y": 16,
             "guard": "#output2->exists"
         },
         {
@@ -96,7 +102,7 @@
             "item": "#output2",
             "link_recipe": "true",
             "x": 85,
-            "y": 32,
+            "y": 40,
             "guard": "#input2##output2#->exists"
         },
         {
@@ -105,7 +111,7 @@
             "item": "#output",
             "link_recipe": "true",
             "x": 85,
-            "y": 20,
+            "y": 28,
             "guard": "#input2->exists##output2#"
         }
     ]

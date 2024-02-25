@@ -1,0 +1,20 @@
+{
+    "components": [
+        {
+            "type": "text",
+            "text": "#text",
+            "x": "",
+            "y": ""
+        }
+    ],
+    "include": [
+        {
+            "template": "recipes/components/single_machine_recipe",
+            "as": "first"
+        },
+        {
+            "template": "recipes/components/double_machine_recipe",
+            "as": "second"
+        }
+    ]
+}

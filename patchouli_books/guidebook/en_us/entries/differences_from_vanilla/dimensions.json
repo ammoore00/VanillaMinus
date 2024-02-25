@@ -15,21 +15,22 @@
             "text": "$(item)Eyes of Ender/$ will locate $(structure)Ancient Cities/$ instead of $(structure)Strongholds/$"
         },
         {
-            "type": "patchouli:recipes/components/double_machine_recipe",
-            "text": "Cinder Flour",
-            "input": "minecraft:magma_block",
-            "machine": "create:mechanical_mixer",
-            "machine2": "create:basin",
-            "output": "create:cinder_flour",
-            "output2": "minecraft:soul_sand{display:{Lore:[\\'[{'text':\"5% chance\", 'color':'gold', 'italic':'false'}]\\']}}"
+            "type": "patchouli:recipes/recipe_pages/single_machine_with_text",
+            "recipe.input": "minecraft:magma_block",
+            "recipe.machine": "create:millstone",
+            "recipe.output": "create:cinder_flour",
+            "recipe.output2": "minecraft:soul_sand{display:{Lore:[\\'[{'text':\"5% chance\", 'color':'gold', 'italic':'false'}]\\']}}",
+            
+            "text": "$(item)Magma Blocks/$ can be found commonly within the deepest layers of $(concept)Caves/$. Mill it to create $(item)Cinder Flour/$, and a small chance of $(item)Soul Sand/$."
         },
         {
-            "type": "patchouli:recipes/components/single_machine_recipe",
-            "text": "Cinder Flour",
-            "input": "minecraft:magma_block",
-            "machine": "create:millstone",
-            "output": "create:cinder_flour",
-            "output2": "minecraft:soul_sand{display:{Lore:[\\'[{'text':\"5% chance\", 'color':'gold', 'italic':'false'}]\\']}}"
+            "type": "patchouli:recipes/recipe_pages/double_machine_with_text",
+            "recipe.input": "create:cinder_flour#4",
+            "recipe.machine": "create:mechanical_press",
+            "recipe.machine2": "create:basin",
+            "recipe.output": "minecraft:netherrack",
+            
+            "text": "$(item)Magma Blocks/$ can be found commonly within the deepest layers of $(concept)Caves/$. Mill it to create $(item)Cinder Flour/$, and a small chance of $(item)Soul Sand/$."
         }
     ]
 }
