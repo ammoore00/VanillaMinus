@@ -9,44 +9,36 @@
         },
         {
             "type": "patchouli:item",
-            "framed": true,
+            "framed": false,
             "item": "#input",
-            "x": 15,
+            "x": 4,
             "y": 20
-        },
-        {
-            "type": "patchouli:image",
-            "image": "kubejs:textures/gui/patchouli_icons/arrow.png",
-            "width": 16,
-            "height": 16,
-            "texture_width": 16,
-            "texture_height": 16,
-            "x": 35,
-            "y": 21
         },
         {
             "type": "patchouli:item",
             "framed": false,
             "item": "#machine",
-            "x": 50,
+            "x": 39,
             "y": 20
         },
         {
             "type": "patchouli:image",
-            "image": "kubejs:textures/gui/patchouli_icons/arrow.png",
-            "width": 16,
-            "height": 16,
-            "texture_width": 16,
-            "texture_height": 16,
-            "x": 66,
-            "y": 21
+            "image": "patchouli:textures/gui/crafting.png",
+            "x": 0,
+            "y": 16,
+            "width": 72,
+            "height": 24,
+            "u": 11,
+            "v": 71,
+            "texture_width": 128,
+            "texture_height": 256
         }
     ],
     "include": [
         {
             "template": "patchouli:items/item_with_lore",
             "as": "output",
-            "x": 85,
+            "x": 74,
             "y": 8,
             "using": {
                 "item": "#output",
@@ -55,12 +47,22 @@
         },
         {
             "template": "patchouli:items/item_with_lore",
-            "as": "output2",
-            "x": 85,
-            "y": 32,
+            "as": "output",
+            "x": 98,
+            "y": 8,
             "using": {
                 "item": "#output2",
                 "lore": "#chance2"
+            }
+        },
+        {
+            "template": "patchouli:items/item_with_lore",
+            "as": "output2",
+            "x": 86,
+            "y": 32,
+            "using": {
+                "item": "#output3",
+                "lore": "#chance3"
             }
         }
     ]

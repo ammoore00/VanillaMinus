@@ -1,0 +1,50 @@
+{
+    "components": [
+        {
+            "type": "patchouli:header",
+            "text": "#text",
+            "centered": true,
+            "x": -1,
+            "y": -6
+        },
+        {
+            "type": "patchouli:item",
+            "framed": false,
+            "item": "#input",
+            "x": 15,
+            "y": 8
+        },
+        {
+            "type": "patchouli:image",
+            "image": "patchouli:textures/gui/crafting.png",
+            "x": 11,
+            "y": 4,
+            "width": 96,
+            "height": 24,
+            "u": 11,
+            "v": 71,
+            "texture_width": 128,
+            "texture_height": 256
+        },
+        {
+            "type": "patchouli:item",
+            "framed": false,
+            "item": "#machine",
+            "x": 50,
+            "y": 8
+        }
+    ],
+    "include": [
+        {
+            "template": "patchouli:items/item_with_lore",
+            "as": "output",
+            "x": 8,
+            "y": 8,
+            "using": {
+                "item": "#output",
+                "lore": "#chance",
+                "hide_frame": "true"
+            }
+        }
+    ]
+}
