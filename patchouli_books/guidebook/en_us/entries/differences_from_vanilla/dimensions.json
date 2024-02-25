@@ -15,12 +15,16 @@
             "text": "$(item)Eyes of Ender/$ will locate $(structure)Ancient Cities/$ instead of $(structure)Strongholds/$"
         },
         {
-            "type": "patchouli:smelting",
-            "recipe": "minecraft:glass",
-            "text": "Test"
+            "type": "patchouli:recipes/components/double_machine_recipe",
+            "text": "Cinder Flour",
+            "input": "minecraft:magma_block",
+            "machine": "create:mechanical_mixer",
+            "machine2": "create:basin",
+            "output": "create:cinder_flour",
+            "output2": "minecraft:soul_sand{display:{Lore:[\\'[{'text':\"5% chance\", 'color':'gold', 'italic':'false'}]\\']}}"
         },
         {
-            "type": "patchouli:recipes/components/machine_recipe_single_input_dual_output",
+            "type": "patchouli:recipes/components/single_machine_recipe",
             "text": "Cinder Flour",
             "input": "minecraft:magma_block",
             "machine": "create:millstone",

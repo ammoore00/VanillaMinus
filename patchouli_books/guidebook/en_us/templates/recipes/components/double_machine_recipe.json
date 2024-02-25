@@ -1,0 +1,112 @@
+{
+    "components": [
+        {
+            "type": "patchouli:header",
+            "text": "#text",
+            "centered": true,
+            "x": -1,
+            "y": -6
+        },
+
+
+
+        {
+            "type": "patchouli:item",
+            "item": "#machine",
+            "x": 50,
+            "y": 8
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#machine2",
+            "x": 50,
+            "y": 32
+        },
+        {
+            "type": "patchouli:image",
+            "image": "patchouli:textures/gui/crafting.png",
+            "x": 35,
+            "y": 16,
+            "width": 48,
+            "height": 24,
+            "u": 35,
+            "v": 71,
+            "texture_width": 128,
+            "texture_height": 256
+        },
+
+
+
+        {
+            "type": "patchouli:item",
+            "framed": "true",
+            "item": "#input",
+            "x": 15,
+            "y": 8,
+            "guard": "#input2##output2#->exists->inv"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#output",
+            "link_recipe": "true",
+            "x": 85,
+            "y": 8,
+            "guard": "#input2->exists->inv"
+        },
+
+
+
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#input",
+            "x": 15,
+            "y": 20,
+            "guard": "#output2->exists##input2#"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#input",
+            "x": 15,
+            "y": 8,
+            "guard": "#input2->exists"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#input2",
+            "x": 15,
+            "y": 32,
+            "guard": "#input2->exists"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#output",
+            "link_recipe": "true",
+            "x": 85,
+            "y": 8,
+            "guard": "#output2->exists"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#output2",
+            "link_recipe": "true",
+            "x": 85,
+            "y": 32,
+            "guard": "#input2##output2#->exists"
+        },
+        {
+            "type": "patchouli:item",
+            "framed": true,
+            "item": "#output",
+            "link_recipe": "true",
+            "x": 85,
+            "y": 20,
+            "guard": "#input2->exists##output2#"
+        }
+    ]
+}

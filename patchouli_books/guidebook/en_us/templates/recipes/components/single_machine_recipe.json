@@ -42,6 +42,7 @@
             "type": "patchouli:item",
             "framed": true,
             "item": "#output",
+            "link_recipe": "true",
             "x": 85,
             "y": 8,
             "guard": "#input2->exists->inv"
@@ -97,6 +98,7 @@
             "type": "patchouli:item",
             "framed": true,
             "item": "#output",
+            "link_recipe": "true",
             "x": 85,
             "y": 8,
             "guard": "#output2->exists"
@@ -105,6 +107,7 @@
             "type": "patchouli:item",
             "framed": true,
             "item": "#output2",
+            "link_recipe": "true",
             "x": 85,
             "y": 32,
             "guard": "#input2##output2#->exists"
@@ -113,6 +116,7 @@
             "type": "patchouli:item",
             "framed": true,
             "item": "#output",
+            "link_recipe": "true",
             "x": 85,
             "y": 20,
             "guard": "#input2->exists##output2#"
