@@ -1,0 +1,16 @@
+{
+    "components": [
+        {
+            "type": "patchouli:text",
+            "text": "#text",
+            "x": "0",
+            "y": "64"
+        }
+    ],
+    "include": [
+        {
+            "template": "patchouli:recipes/components/triple_machine_recipe",
+            "as": "recipe"
+        }
+    ]
+}

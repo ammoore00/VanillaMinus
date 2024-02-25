@@ -1,0 +1,20 @@
+{
+    "name": "Shulker Boxes",
+    "category": "patchouli:vanilla_differences",
+    "icon": "minecraft:shulker_shell",
+    "sortnum": 40,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:shulker_shell",
+            "title": "Shulker Boxes",
+            "text": "$(entity)Shulkers/$ and $(item)Shulker Boxes/$ have been removed. However, $(item)Sacks/$ can be used to fill the role of $(item)Shulker Boxes/$, albeit less powerful."
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "patchouli:tools/sack"
+            ]
+        }
+    ]
+}

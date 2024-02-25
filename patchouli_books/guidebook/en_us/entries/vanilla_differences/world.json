@@ -1,0 +1,34 @@
+{
+    "name": "The World",
+    "category": "patchouli:vanilla_differences",
+    "icon": "biomesoplenty:bop_icon",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "title": "Caves",
+            "item": "minecraft:magma_cream",
+            "text": "$(concept)Caves/$ deep within the world will spawn with large amounts of $(item)Magma Blocks/$, $(item)Basalt/$, and $(item)Blackstone/$. $(entity)Slimes/$ which die due to fire will also split into $(entity)Magma Cubes/$, providing access to $(item)Magma Cream/$, and a renewable source of $(item)Magma Blocks/$."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Dimensions",
+            "item": "minecraft:ender_eye",
+            "text": "$(concept)The Nether/$ and $(concept)The End/$ have been removed. $(concept)Nether Portals/$ will do nothing, and $(structure)Strongholds/$ and $(structure)Ruined Nether Portals/$ will not spawn. Many resources found in these dimensions can be obtained in other ways."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Bosses",
+            "item": "minecraft:nether_star",
+            "text": "The $(entity)Wither/$ and $(entity)Ender Dragon/$ are disabled as well, along with their drops. $(item)Beacons/$ have been removed, although $(item)Elytra/$ are still available in the form of the $(item)Glider/$."
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "patchouli:vanilla_differences/netherrack",
+                "patchouli:vanilla_differences/blaze_rod",
+                "patchouli:vanilla_differences/ender_eye"
+            ]
+        }
+    ]
+}

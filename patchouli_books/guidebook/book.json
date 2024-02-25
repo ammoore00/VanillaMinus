@@ -9,6 +9,10 @@
     "macros": {
         "$(concept)": "$(#490)",
         "$(structure)": "$(6)",
-        "$(entity)": "$(2)"
+        "$(entity)": "$(2)",
+
+        "$(link": "$(bold)$(l",
+
+        "\n": "$(br)"
     }
 }

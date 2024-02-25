@@ -1,6 +1,8 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:kubejs:blazing_sheet",
+    "item:kubejs:blazing_ingot",
     "item:minecraft:magma_block",
     "item:create_sa:brass_axe{Damage:0}",
     "item:create_sa:brass_pickaxe{Damage:0}",
@@ -193,9 +195,7 @@
     "item:create:blaze_cake",
     "item:kubejs:adamantine_ingot",
     "item:create:empty_blaze_burner",
-    "item:kubejs:blazing_ingot",
     "item:minecraft:blaze_rod",
-    "item:kubejs:blazing_sheet",
     "item:minecraft:torchflower",
     "item:minecraft:end_rod",
     "item:create_enchantment_industry:disenchanter",

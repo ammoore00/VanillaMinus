@@ -4,21 +4,26 @@
             "type": "patchouli:text",
             "text": "#text",
             "x": "0",
-            "y": "36",
-            "guard": "#recipe.input2##recipe.output2#->exists->inv"
+            "y": "88",
+            "guard": "#second.input2##second.output2#->exists->inv"
         },
         {
             "type": "patchouli:text",
             "text": "#text",
             "x": "0",
-            "y": "56",
-            "guard": "#recipe.input2##recipe.output2#->exists"
+            "y": "112",
+            "guard": "#second.input2##second.output2#->exists"
         }
     ],
     "include": [
         {
+            "template": "patchouli:recipes/components/double_machine_recipe",
+            "as": "first"
+        },
+        {
             "template": "patchouli:recipes/components/single_machine_recipe",
-            "as": "recipe"
+            "as": "second",
+            "y": "56"
         }
     ]
 }
