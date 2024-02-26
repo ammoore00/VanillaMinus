@@ -1,0 +1,12 @@
+{
+    "name": "Using this Guide",
+    "category": "patchouli:intro",
+    "icon": "kubejs:textures/item/guidebook.png",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This guide assumes knowledge of vanilla Minecraft, but does not assume any experience with modded Minecraft."
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Ponder",
+    "category": "patchouli:intro",
+    "icon": "create:goggles",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(concept)Ponder/$ is a way to view dynamic tutorials on many of the more advanced blocks and items in the game. Relevant blocks or items will contain the text \"Hold W to Ponder\", which will bring up the tutorial for the item. Many places in this guide will direct you to $(concept)Ponder/$ for more information. This can be done in inventory, through $(concept)EMI/$, or directly from this guide."
+        }
+    ]
+}

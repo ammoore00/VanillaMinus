@@ -1,0 +1,19 @@
+{
+    "name": "End Materials",
+    "category": "patchouli:vanilla_differences",
+    "icon": "minecraft:chorus_fruit",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:ender_eye",
+            "text": "$(item)Eyes of Ender/$ will locate $(structure)Ancient Cities/$ instead of $(structure)Strongholds/$"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:shulker_shell",
+            "title": "Shulker Boxes",
+            "text": "$(entity)Shulkers/$ and $(item)Shulker Boxes/$ have been removed. However, $(link:patchouli:tools/sack)Sacks/$ can be used to fill the role of $(item)Shulker Boxes/$, albeit less powerful."
+        }
+    ]
+}

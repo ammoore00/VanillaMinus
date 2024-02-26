@@ -19,7 +19,9 @@
             "recipe.machine3": "create:blaze_burner",
             "recipe.output": "create:brass_ingot",
 
-            "text": "Because $(item)Diamond Tools/$ (now called $(item)Adamantine/$) are available later than in vanilla, an additional tier of $(item)Brass tools/$ has been added between $(item)Iron/$ and $(item)Diamond/$ (now called $(item)Adamantine/$)."
+            "text": "Because $(item)Diamond Tools/$ (now called $(item)Adamantine/$) are available later than in vanilla, an additional tier of $(item)Brass tools/$ has been added between $(item)Iron/$ and $(item)Diamond/$ (now called $(item)Adamantine/$).",
+
+            "anchor": "brass"
         },
         {
             "type": "patchouli:recipes/recipe_pages/triple_machine_with_text",
@@ -30,7 +32,9 @@
             "recipe.machine3": "create:blaze_burner",
             "recipe.output": "kubejs:adamantine_ingot",
 
-            "text": "$(item)Diamond Tools/$ are now made from $(item)Adamantine Ingots/$, which requires $(concept)Crushing/$ the $(item)Diamonds/$ to be combined with $(item)Iron Ingots/$."
+            "text": "$(item)Diamond Tools/$ are now made from $(item)Adamantine Ingots/$, which requires $(concept)Crushing/$ the $(item)Diamonds/$ to be combined with $(item)Iron Ingots/$.",
+
+            "anchor": "adamantine"
         },
         {
             "type": "patchouli:recipes/recipe_pages/quadruple_machine_with_text",
@@ -42,7 +46,9 @@
             "recipe.machine4": "create:blaze_cake",
             "recipe.output": "minecraft:netherite_ingot",
 
-            "text": "$(item)Netherite/$, now known as $(item)Steel/$, can be made in a $(concept)Superheated Mixer/$ by combining $(item)Ancient Scrap/$ with $(item)Iron/$."
+            "text": "$(item)Netherite/$, now known as $(item)Steel/$, can be made in a $(concept)Superheated Mixer/$ by combining $(item)Ancient Scrap/$ with $(item)Iron/$.",
+
+            "anchor": "steel"
         }
     ]
 }

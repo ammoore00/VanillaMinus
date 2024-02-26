@@ -1,6 +1,7 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:glowstone_dust",
     "item:kubejs:adamantine_ingot",
     "item:minecraft:netherite_ingot",
     "item:minecraft:crimson_nylium",
@@ -172,7 +173,6 @@
     "item:minecraft:glow_berries",
     "item:minecraft:lapis_lazuli",
     "item:minecraft:prismarine_crystals",
-    "item:minecraft:glowstone_dust",
     "item:minecraft:sniffer_egg",
     "item:create_enchantment_industry:enchanting_guide{index:0,target:{Count:1b,id:\"minecraft:enchanted_book\",tag:{StoredEnchantments:[{id:\"minecraft:silk_touch\",lvl:1s}]}}}",
     "item:quark:smithing_template_rune",

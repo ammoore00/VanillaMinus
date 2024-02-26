@@ -1,0 +1,34 @@
+{
+    "name": "EMI: Recipe Guide",
+    "category": "patchouli:intro",
+    "icon": "minecraft:knowledge_book",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:knowledge_book",
+            "title": "EMI",
+            "text": "$(concept)EMI/$ can be used to browse items and recipes available in the game. EMI settings can be configured through the button labeled \"EMI\" in the bottom left of the inventory screen. Keybinds in this chapter will reflect the default keybinds instead of updating to show your chosen keybinds, due to the way EMI stores keybinds."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Search",
+            "text": "The search bar at the bottom can be used to find specific items within EMI, or can be double-clicked in order to search the current inventory screen.\n\nAdditionally, you can refine the search using the following:$(li)@ to search by mod$(li)# to search by tag$(li)- to exclude a term/$"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Layout",
+            "text": "The layout can be customized significantly, but is arranged by default to provide an experience akin to the vanilla recipe book. By default, the left panel contains bookmarks in the main panel, and item history along the bottom. The right panel contains the list of all items, but can be toggled to current craftable items by clicking the magnifying glass icon."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Recipes",
+            "text": "The recipe viewer displays recipes according to recipe type with the tabs along the top. Left click an item within EMI to view recipes for it, or right click to view recipes it is used in. Next to each recipe are buttons to craft the item, and to view the recipe tree for that item. There is also a button to set a recipe as a default, used to populate the recipe tree."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Useful Shortcuts",
+            "text": "While hovering over an item in an inventory (not just within EMI), press R to view recipes for that item, or press U to view recipes using that item. You can also press A to bookmark that item for easy future reference."
+        }
+    ]
+}

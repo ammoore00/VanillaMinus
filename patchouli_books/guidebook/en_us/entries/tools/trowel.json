@@ -1,7 +1,7 @@
 {
-    "name": "Sack",
+    "name": "Trowel",
     "category": "patchouli:tools",
-    "icon": "supplementaries:sack",
+    "icon": "quark:trowel",
     "pages": [
         
     ]

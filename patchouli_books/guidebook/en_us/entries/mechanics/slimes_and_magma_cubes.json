@@ -1,0 +1,16 @@
+{
+    "name": "Slimes and Magma Cubes",
+    "category": "patchouli:mechanics",
+    "icon": "minecraft:magma_cream",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(entity)Slimes/$ which die to fire damage will split into $(entity)Magma Cubes/$, allowing for the harvesting of $(item)Magma Cream/$ and $(item)Froglights/$."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:slime",
+            "rotate": false
+        }
+    ]
+}

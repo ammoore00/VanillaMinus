@@ -1,0 +1,9 @@
+{
+    "name": "Villagers",
+    "category": "patchouli:vanilla_differences",
+    "icon": "minecraft:textures/mob_effect/hero_of_the_village.png",
+    "sortnum": 50,
+    "pages": [
+
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "name": "Enchanting",
+    "category": "patchouli:vanilla_differences",
+    "icon": "minecraft:enchanting_table",
+    "sortnum": 40,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:enchanting_table",
+            "title": "Enchanting",
+            "text": "$(concept)Enchanting/$ has been overhauled, both to prevent $(entity)Villagers/$ from completely devaluing the $(item)Enchanting Tables/$, and to encourage exploration, while also increasing the determinism of the $(item)Enchanting Tables/$."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "The $(item)Enchanting Table's/$ range has been increased from 5x5x2 to 7x7x3. It will also apply curses to items by default, though placing $(item)Candles/$ within range will decrease the probability of curses appearing. Placing sixteen $(item)Candles/$ will prevent curses from being applied. Conversely, $(item)Soul Flames/$ or $(item)Soul Torches/$ will increase the likelihood of curses appearing."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:anvil",
+            "text": "The $(item)Anvil/$ cannot apply enchantments from books. However, when repairing items, there is no experience cost, and it can be done infinitely many times."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:enchanted_book",
+            "title": "Enchanted Books",
+            "text": "Because the $(item)Anvil/$ does not apply enchantments, the $(item)Enchanting Table/$ must be used for all enchantments. The $(item)Enchanting Table/$ has access to basic enchantments by default. Additional enchantments can be added to the pool by placing $(item)Enchanted Books/$ within $(item)Chiseled Bookshelves/$ within range."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Enchantment Sources",
+            "text": "The following enchantments are available from the $(item)Enchanting Table/$ by default:$(li)Unbreaking$(li)Protection$(li)Sharpness$(li)Efficiency$(li)Impaling$(li)Power/$"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "The following enchantments are available from $(entity)Villagers/$:$(li)Blast Protection$(li)Projectile Protection$(li)Fire Protection$(li)Aqua Affinity$(li)Depth Strider$(li)Bane of Arthropods$(li)Smite$(li)Sweeping Edge$(li)Knockback$(li)Punch$(li)Piercing$(li)Quick Charge$(li)Loyalty$(li)Silk Touch/$"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "The following enchantments are available from $(structure)Loot Chests/$:$(li)$(bold)Stronghold Libraries/$$(li2)Mending$(li2)Soulbound$(li2)Infinity$(li)$(bold)End Cities/$$(li2)Feather Falling$(li)$(bold)Piglin Bartering/$$(li2)Frost Walker$(li)$(bold)Ocean Ruins/$$(li2)Respiration$(li2)Riptide$(li)$(bold)Nether Fortresses/$$(li2)Soul Speed/$$(li)$(bold)Ancient Cities/$$(li2)Swift Sneak"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(bold)Jungle Temple/$$(li2)Thorns$(li)$(bold)Desert Temple/$$(li2)Looting$(li2)Fortune$(li)$(bold)Bastions, Fortresses, Ruined Portals/$$(li2)Fire Aspect$(li2)Flame$(li)$(bold)Woodland Mansion/$$(li2)Channeling$(li)$(bold)Pillager Outposts/$$(li2)Multishot$(li)$(bold)Fishing/$$(li2)Luck of the Sea$(li2)Lure"
+        }
+    ]
+}

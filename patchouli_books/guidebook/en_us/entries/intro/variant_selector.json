@@ -1,0 +1,20 @@
+{
+    "name": "Variant Selector",
+    "category": "patchouli:intro",
+    "icon": "minecraft:oak_stairs",
+    "sortnum": 40,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Block shapes such as stairs, slabs, fences, etc cannot be crafted, and are instead available through the $(concept)Variant Selector/$.\n\nHold $(k:quark.keybind.variant_selector) to bring up the selector radial, and then use the mouse to select a variant.\n\nHold $(k:key.sneak) over an item to preview its variants."
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "images": [
+                "kubejs:textures/gui/patchouli/variant_selector.png"
+            ],
+            "text": "The $(concept)Variant Selector/$ as it appears in game."
+        }
+    ]
+}

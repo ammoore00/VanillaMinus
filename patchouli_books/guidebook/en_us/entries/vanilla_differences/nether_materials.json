@@ -43,6 +43,18 @@
             "third.output": "minecraft:blaze_rod"
         },
         {
+            "type": "patchouli:spotlight",
+            "item": "geore:quartz_shard",
+            "text": "$(item)Quartz/$ can be found in $(structure)Geodes/$ deep in the ground. Just like $(item)Amethyst/$, it grows slowly from $(item)Budding Quartz/$ blocks, which cannot be moved or picked up in any way.",
+            "link_recipe": true
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:netherite_scrap",
+            "title": "Ancient Debris",
+            "text": "$(item)Ancient Debris/$ can be found replacing the $(item)Reinforced Deepslate/$ in the frame in the center of $(structure)Ancient Cities/$. $(item)Eyes of Ender/$ will now track to $(structure)Ancient Cities/$ in order to help find them.\n\nSee also $(link:patchouli:vanilla_differences/tools#steel)Steel/$."
+        },
+        {
             "type": "patchouli:recipes/recipe_pages/single_machine_with_text",
             "recipe.input": "minecraft:magma_block",
             "recipe.machine": "create:millstone",
@@ -84,14 +96,12 @@
             "recipe2": "dawn:warped_nylium"
         },
         {
-            "type": "patchouli:spotlight",
-            "item": "minecraft:netherite_scrap"
-        },
-        {
-            "type": "patchouli:spotlight",
-            "item": "geore:quartz_shard",
-            "text": "$(item)Quartz/$ can be found in $(structure)Geodes/$ deep in the ground. Just like $(item)Amethyst/$, it grows slowly from $(item)Budding Quartz/$ blocks, which cannot be moved or picked up in any way.",
-            "link_recipe": true
+            "type": "patchouli:recipes/recipe_pages/single_machine_with_text",
+            "recipe.input": "minecraft:glow_berries",
+            "recipe.machine": "create:millstone",
+            "recipe.output": "minecraft:glowstone_dust",
+            
+            "text": "$(item)Glowstone Dust/$, now simply called $(item)Glowdust/$, can be made by $(concept)Milling/$ $(item)Glow Berries/$."
         }
     ]
 }

@@ -26,7 +26,7 @@
             "type": "patchouli:relations",
             "entries": [
                 "patchouli:vanilla_differences/nether_materials",
-                "patchouli:vanilla_differences/ender_eye"
+                "patchouli:vanilla_differences/end_materials"
             ]
         }
     ]
