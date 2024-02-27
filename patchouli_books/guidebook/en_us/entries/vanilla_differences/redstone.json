@@ -1,0 +1,13 @@
+{
+    "name": "Redstone",
+    "category": "patchouli:vanilla_differences",
+    "icon": "minecraft:redstone",
+    "sortnum": 35,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:hopper",
+            "text": "$(item)Hoppers/$ have been removed, as they have been replaced almost entirely by content from $(concept)Create/$ in ways which require more design effort than $(item)Hoppers/$. In most cases a $(item)Chute/$ is capable of replacing vanilla $(item)Hoppers/$, while $(item)Deployers/$ or other more complex automated systems can fulfil the rest of use cases for $(item)Hoppers/$."
+        }
+    ]
+}

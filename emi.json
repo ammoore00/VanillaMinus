@@ -1,12 +1,30 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:farmersdelight:basket",
+    "item:create:wrench",
+    {
+      "type": "item",
+      "id": "minecraft:bamboo",
+      "amount": 64
+    },
+    "item:minecraft:warped_nylium",
+    "item:minecraft:crimson_nylium",
+    {
+      "type": "item",
+      "id": "minecraft:warped_fungus",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "id": "minecraft:brown_mushroom",
+      "amount": 4
+    },
     "item:minecraft:crimson_fungus",
     "item:minecraft:red_mushroom",
     "item:minecraft:glowstone_dust",
     "item:kubejs:adamantine_ingot",
     "item:minecraft:netherite_ingot",
-    "item:minecraft:crimson_nylium",
     "item:kubejs:blazing_sheet",
     "item:kubejs:blazing_ingot",
     "item:minecraft:magma_block",
@@ -26,7 +44,6 @@
     "item:create:encased_fan",
     "item:minecraft:string",
     "item:create:goggles",
-    "item:create:wrench",
     {
       "type": "item",
       "id": "create_sa:heat_engine",
@@ -47,7 +64,6 @@
     "item:shieldexp:diamond_shield{Damage:0}",
     "item:minecraft:bamboo_block",
     "item:regions_unexplored:bamboo_log",
-    "item:minecraft:bamboo",
     "item:minecraft:stripped_bamboo_block",
     "item:regions_unexplored:larch_planks",
     "item:minecraft:brown_dye",
@@ -85,9 +101,7 @@
     "item:minecraft:quartz_block",
     "item:minecraft:tinted_glass",
     "item:minecraft:phantom_membrane",
-    "item:minecraft:warped_fungus",
     "item:farmersdelight:red_mushroom_colony",
-    "item:minecraft:warped_nylium",
     "item:quark:blaze_lantern",
     "item:minecraft:gold_ingot",
     "item:createaddition:electrum_ingot",
@@ -419,8 +433,14 @@
     "item:everycomp:mcd/quark/azalea_bark_glass_door"
   ],
   "craft_history": [
-    "minecraft:iron_pickaxe",
     "quark:tweaks/crafting/utility/chests/spruce_chest_wood",
+    "minecraft:composter",
+    "minecraft:shears",
+    "minecraft:bone_meal",
+    "dawn:crimson_nylium",
+    "dawn:warped_nylium",
+    "create:crafting/kinetics/basin",
+    "minecraft:iron_pickaxe",
     "minecraft:nether_bricks",
     "create:crafting/kinetics/encased_chain_drive",
     "minecraft:iron_nugget",
@@ -454,7 +474,6 @@
     "minecraft:iron_block",
     "create:crafting/kinetics/millstone",
     "create:crafting/materials/andesite_alloy_from_zinc",
-    "create:crafting/kinetics/basin",
     "dawn:kinetic_mechanism_inverted",
     "biomesoplenty:jacaranda_planks",
     "minecraft:furnace",

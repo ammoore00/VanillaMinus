@@ -15,4 +15,6 @@ ServerEvents.recipes(event => {
             M: 'create_sa:steam_engine'
         }
     ).id('create:crafting/logistics/redstone_link')
+
+    event.remove({output: 'minecraft:hopper'})
 })
