@@ -23,7 +23,7 @@
             "type": "patchouli:spotlight",
             "item": "minecraft:enchanted_book",
             "title": "Enchanted Books",
-            "text": "Because the $(item)Anvil/$ does not apply enchantments, the $(item)Enchanting Table/$ must be used for all enchantments. The $(item)Enchanting Table/$ has access to basic enchantments by default. Additional enchantments can be added to the pool by placing $(item)Enchanted Books/$ within $(item)Chiseled Bookshelves/$ within range."
+            "text": "Because the $(item)Anvil/$ does not apply enchantments, the $(item)Enchanting Table/$ must be used for all enchantments. The $(item)Enchanting Table/$ has access to basic enchantments by default. Additional enchantments can be added to the pool by placing $(item)Enchanted Books/$ into $(item)Chiseled Bookshelves/$ within range."
         },
         {
             "type": "patchouli:text",

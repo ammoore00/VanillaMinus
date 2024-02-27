@@ -1,6 +1,6 @@
 {
     "name": "Guidebook",
-    "landing_text": "Everything you need to get started!",
+    "landing_text": "Your complete guide to $(modpack)!",
     "version": 1,
     "creative_tab": "minecraft:tools_and_utilities",
     "use_resource_pack": false,

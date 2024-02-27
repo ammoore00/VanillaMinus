@@ -1,6 +1,6 @@
 {
     "name": "Tools",
-    "description": "",
+    "description": "Useful tools added by $(modpack).",
     "icon": "quark:trowel",
     "sortnum": 20
 }

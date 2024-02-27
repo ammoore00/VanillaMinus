@@ -7,7 +7,7 @@
         {
             "type": "patchouli:spotlight",
             "item": "minecraft:ender_eye",
-            "text": "$(item)Eyes of Ender/$ will locate $(structure)Ancient Cities/$ instead of $(structure)Strongholds/$"
+            "text": "$(item)Eyes of Ender/$ will locate $(structure)Ancient Cities/$ instead of $(structure)Strongholds/$."
         },
         {
             "type": "patchouli:spotlight",

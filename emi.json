@@ -1,6 +1,8 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:minecraft:crimson_fungus",
+    "item:minecraft:red_mushroom",
     "item:minecraft:glowstone_dust",
     "item:kubejs:adamantine_ingot",
     "item:minecraft:netherite_ingot",
@@ -84,7 +86,6 @@
     "item:minecraft:tinted_glass",
     "item:minecraft:phantom_membrane",
     "item:minecraft:warped_fungus",
-    "item:minecraft:crimson_fungus",
     "item:farmersdelight:red_mushroom_colony",
     "item:minecraft:warped_nylium",
     "item:quark:blaze_lantern",
@@ -418,6 +419,8 @@
     "item:everycomp:mcd/quark/azalea_bark_glass_door"
   ],
   "craft_history": [
+    "minecraft:iron_pickaxe",
+    "quark:tweaks/crafting/utility/chests/spruce_chest_wood",
     "minecraft:nether_bricks",
     "create:crafting/kinetics/encased_chain_drive",
     "minecraft:iron_nugget",
@@ -427,7 +430,6 @@
     "create:crafting/kinetics/depot",
     "create:crafting/kinetics/encased_fan",
     "create:crafting/kinetics/propeller",
-    "minecraft:iron_pickaxe",
     "quark:building/crafting/chests/spruce_chest",
     "minecraft:spruce_planks",
     "create:crafting/kinetics/chute",
@@ -459,7 +461,6 @@
     "minecraft:iron_axe",
     "minecraft:iron_hoe",
     "minecraft:bucket",
-    "quark:tweaks/crafting/utility/chests/spruce_chest_wood",
     "minecraft:snow_block",
     "minecraft:iron_shovel",
     "minecraft:coal_block",

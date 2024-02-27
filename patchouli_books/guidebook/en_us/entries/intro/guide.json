@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "This guide assumes knowledge of vanilla Minecraft, but does not assume any experience with modded Minecraft."
+            "text": "Welcome to $(modpack)! This guide will get you started with everything you need to know.\n\nThe guide assumes knowledge of vanilla Minecraft, but does not assume any experience with modded Minecraft."
         }
     ]
 }
