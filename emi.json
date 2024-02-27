@@ -1,6 +1,7 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:create_sa:brass_pickaxe{Damage:0}",
     "item:farmersdelight:basket",
     "item:create:wrench",
     {
@@ -29,7 +30,6 @@
     "item:kubejs:blazing_ingot",
     "item:minecraft:magma_block",
     "item:create_sa:brass_axe{Damage:0}",
-    "item:create_sa:brass_pickaxe{Damage:0}",
     "item:create_sa:brass_boots{Damage:0}",
     "item:create_sa:brass_leggings{Damage:0}",
     "item:create_sa:brass_chestplate{Damage:0}",
