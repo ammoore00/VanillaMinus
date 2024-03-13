@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
     ).id('dawn:filling/antique_ink')
 
     event.recipes.create.haunting(
-        Item.of('minecraft:sniffer_egg').withChance(0.25),
+        'minecraft:sniffer_egg',
         'minecraft:turtle_egg'
     ).id('dawn:sniffer_egg')
 

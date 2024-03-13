@@ -8,7 +8,8 @@
             "type": "patchouli:recipes/recipe_pages/single_machine_with_text",
             "recipe.input": "minecraft:torchflower",
             "recipe.machine": "create:millstone",
-            "recipe.output": "minecraft:blaze_powder",
+            "recipe.output": "minecraft:blaze_powder#2",
+            "recipe.output2": "minecraft:blaze_powder{display:{Lore:[\\'[{'text':\"25% chance\", 'color':'gold', 'italic':'false'}]\\']}}",
             
             "text": "$(item)Blaze Powder/$ is now called $(item)Torchpowder/$, and can be obtained by milling $(item)Torchflowers/$, which are dug up by $(entity)Sniffers/$."
         },
@@ -40,7 +41,7 @@
             
             "third.input": "kubejs:blazing_sheet",
             "third.machine": "createaddition:rolling_mill",
-            "third.output": "minecraft:blaze_rod"
+            "third.output": "minecraft:blaze_rod#2"
         },
         {
             "type": "patchouli:spotlight",
