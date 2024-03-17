@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
     
     event.replaceInput({output: 'create:mechanical_arm'}, 'create:brass_sheet', 'createaddition:brass_rod')
     
-    event.replaceInput({output: 'create:mechanical_crafter'}, '#forge:workbench', 'create:precision_mechanism')
+    event.replaceInput({output: 'create:mechanical_crafter'}, '#forge:workbench', 'create_sa:heat_engine')
 
     event.shaped(
         'create:mechanical_drill',
