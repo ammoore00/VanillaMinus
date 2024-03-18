@@ -57,9 +57,9 @@ ServerEvents.recipes(event => {
     event.shaped(
         'minecraft:map',
         [
-            ' P ',
+            'PPP',
             'PIP',
-            ' P '
+            'PPP'
         ],
         {
             P: 'minecraft:paper',

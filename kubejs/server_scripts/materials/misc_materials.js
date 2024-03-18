@@ -34,11 +34,14 @@ ServerEvents.recipes(event => {
             C: 'farmersdelight:canvas'
         }
     ).id('dawn:reinforced_canvas')
+
+    event.remove({output: 'minecraft:stick', mod: 'quark'})
 })
 
 ServerEvents.tags('item', event => {
     event.add('dawn:ink_materials', [
         'minecraft:ink_sac',
-        'minecraft:glow_ink'
+        'minecraft:glow_ink_sac',
+        'minecraft:black_dye'
     ])
 })

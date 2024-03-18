@@ -1,0 +1,12 @@
+{
+    "name": "Mapping",
+    "category": "patchouli:intro",
+    "icon": "minecraft:filled_map",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}
