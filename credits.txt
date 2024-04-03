@@ -1,3 +1,8 @@
+Content included which is not downloaded by the curseforge ecosystem:
+- Create: Interactive - https://modrinth.com/mod/interactive
+- Non-HD Sniffers - https://www.planetminecraft.com/texture-pack/non-hd-sniffer/
+- Sniffer Egg Fix / Better Sniffer Egg - https://www.planetminecraft.com/texture-pack/sniffer-egg-fix-better-sniffer-egg-for-1-20-bedrock/
+
 Textures used from the following sources:
 - Create: Alloyed - https://www.curseforge.com/minecraft/mc-mods/create-alloyed - MIT - Copyright (c) 2022 MythrilBagels, spottytheturtle, FortressNebula
 
